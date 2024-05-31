@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\Bakery.csproj",
+      "projectUniqueName": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\Bakery.csproj",
       "projectName": "Bakery",
-      "projectPath": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\Bakery.csproj",
+      "projectPath": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\Bakery.csproj",
       "packagesPath": "C:\\Users\\rodyj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\obj\\",
+      "outputPath": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rodyj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

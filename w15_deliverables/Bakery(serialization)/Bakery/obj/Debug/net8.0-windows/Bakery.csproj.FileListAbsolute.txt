@@ -15,3 +15,21 @@ C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakerySta
 C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\obj\Debug\net8.0-windows\Bakery.pdb
 C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\obj\Debug\net8.0-windows\Bakery.genruntimeconfig.cache
 C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\obj\Debug\net8.0-windows\ref\Bakery.dll
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\bin\Debug\net8.0-windows\Bakery.exe
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\bin\Debug\net8.0-windows\Bakery.deps.json
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\bin\Debug\net8.0-windows\Bakery.runtimeconfig.json
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\bin\Debug\net8.0-windows\Bakery.dll
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\bin\Debug\net8.0-windows\Bakery.pdb
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\obj\Debug\net8.0-windows\Bakery.AddForm.resources
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\obj\Debug\net8.0-windows\Bakery.MainForm.resources
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\obj\Debug\net8.0-windows\Bakery.csproj.GenerateResource.cache
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\obj\Debug\net8.0-windows\Bakery.GeneratedMSBuildEditorConfig.editorconfig
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\obj\Debug\net8.0-windows\Bakery.AssemblyInfoInputs.cache
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\obj\Debug\net8.0-windows\Bakery.AssemblyInfo.cs
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\obj\Debug\net8.0-windows\Bakery.csproj.CoreCompileInputs.cache
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\obj\Debug\net8.0-windows\Bakery.sourcelink.json
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\obj\Debug\net8.0-windows\Bakery.dll
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\obj\Debug\net8.0-windows\refint\Bakery.dll
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\obj\Debug\net8.0-windows\Bakery.pdb
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\obj\Debug\net8.0-windows\Bakery.genruntimeconfig.cache
+O:\FHICT\Assignments_Sem1\w15_deliverables\Bakery(serialization)\Bakery\obj\Debug\net8.0-windows\ref\Bakery.dll

@@ -1,38 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\",
+  "WorkspaceRootPath": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\bakery\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\bakery\\bakery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\bakery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\bakery\\sandwich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\sandwich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\bakery\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|c:\\users\\rodyj\\documents\\fhict\\sem1\\week 12\\day 3\\assignments\\s-week14_bakerystartup\\bakery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\bakery\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\bakery\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|o:\\fhict\\assignments_sem1\\w15_deliverables\\bakery(serialization)\\bakery\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|o:\\fhict\\assignments_sem1\\w15_deliverables\\bakery(serialization)\\bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|o:\\fhict\\assignments_sem1\\w15_deliverables\\bakery(serialization)\\bakery\\bakery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\bakery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|o:\\fhict\\assignments_sem1\\w15_deliverables\\bakery(serialization)\\bakery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|o:\\fhict\\assignments_sem1\\w15_deliverables\\bakery(serialization)\\bakery\\sandwich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\sandwich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|o:\\fhict\\assignments_sem1\\w15_deliverables\\bakery(serialization)\\bakery\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,15 +42,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "AddForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\AddForm.cs",
+              "DocumentMoniker": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\AddForm.cs",
               "RelativeDocumentMoniker": "Bakery\\AddForm.cs",
-              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\AddForm.cs [Design]",
+              "ToolTip": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\AddForm.cs [Design]",
               "RelativeToolTip": "Bakery\\AddForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T14:12:44.812Z",
@@ -58,11 +58,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\MainForm.cs",
+              "DocumentMoniker": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\MainForm.cs",
               "RelativeDocumentMoniker": "Bakery\\MainForm.cs",
-              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\MainForm.cs [Design]",
+              "ToolTip": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\MainForm.cs [Design]",
               "RelativeToolTip": "Bakery\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T12:12:23.405Z",
@@ -70,24 +70,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\MainForm.cs",
+              "DocumentMoniker": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\MainForm.cs",
               "RelativeDocumentMoniker": "Bakery\\MainForm.cs",
-              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\MainForm.cs",
+              "ToolTip": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\MainForm.cs",
               "RelativeToolTip": "Bakery\\MainForm.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAywDcAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T12:00:19.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "AddForm.cs",
-              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\AddForm.cs",
+              "DocumentMoniker": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\AddForm.cs",
               "RelativeDocumentMoniker": "Bakery\\AddForm.cs",
-              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\AddForm.cs",
+              "ToolTip": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\AddForm.cs",
               "RelativeToolTip": "Bakery\\AddForm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -96,13 +96,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Bakery.cs",
-              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\Bakery.cs",
+              "DocumentMoniker": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\Bakery.cs",
               "RelativeDocumentMoniker": "Bakery\\Bakery.cs",
-              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\Bakery.cs",
+              "ToolTip": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\Bakery.cs",
               "RelativeToolTip": "Bakery\\Bakery.cs",
-              "ViewState": "AQIAAHAAAAAAAAAAAAApwIUAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T11:29:30.831Z",
               "EditorCaption": ""
@@ -111,35 +111,35 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\Program.cs",
+              "DocumentMoniker": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\Program.cs",
               "RelativeDocumentMoniker": "Bakery\\Program.cs",
-              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\Program.cs",
+              "ToolTip": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\Program.cs",
               "RelativeToolTip": "Bakery\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T09:40:12.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Sandwich.cs",
-              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\Sandwich.cs",
+              "DocumentMoniker": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\Sandwich.cs",
               "RelativeDocumentMoniker": "Bakery\\Sandwich.cs",
-              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\Sandwich.cs",
+              "ToolTip": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\Sandwich.cs",
               "RelativeToolTip": "Bakery\\Sandwich.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAcwBwAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T09:08:18.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Ingredient.cs",
-              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\Ingredient.cs",
+              "DocumentMoniker": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\Ingredient.cs",
               "RelativeDocumentMoniker": "Bakery\\Ingredient.cs",
-              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 3\\Assignments\\S-Week14_BakeryStartUp\\Bakery\\Ingredient.cs",
+              "ToolTip": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\Ingredient.cs",
               "RelativeToolTip": "Bakery\\Ingredient.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
