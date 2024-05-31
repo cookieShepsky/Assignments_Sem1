@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 11\\Day 2\\Assignments\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEAB2A12-988B-45ED-B201-30CCB4CE875A}|Assignments\\2.3 Snackbar.csproj|C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 11\\Day 2\\Assignments\\assignments\\snack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEAB2A12-988B-45ED-B201-30CCB4CE875A}|Assignments\\2.3 Snackbar.csproj|solutionrelative:assignments\\snack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEAB2A12-988B-45ED-B201-30CCB4CE875A}|Assignments\\2.3 Snackbar.csproj|C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 11\\Day 2\\Assignments\\assignments\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEAB2A12-988B-45ED-B201-30CCB4CE875A}|Assignments\\2.3 Snackbar.csproj|solutionrelative:assignments\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEAB2A12-988B-45ED-B201-30CCB4CE875A}|Assignments\\2.3 Snackbar.csproj|c:\\users\\rodyj\\documents\\fhict\\sem1\\week 11\\day 2\\assignments\\assignments\\snackbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEAB2A12-988B-45ED-B201-30CCB4CE875A}|Assignments\\2.3 Snackbar.csproj|solutionrelative:assignments\\snackbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEAB2A12-988B-45ED-B201-30CCB4CE875A}|Assignments\\2.3 Snackbar.csproj|C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 11\\Day 2\\Assignments\\assignments\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EEAB2A12-988B-45ED-B201-30CCB4CE875A}|Assignments\\2.3 Snackbar.csproj|solutionrelative:assignments\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEAB2A12-988B-45ED-B201-30CCB4CE875A}|Assignments\\2.3 Snackbar.csproj|C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 11\\Day 2\\Assignments\\assignments\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEAB2A12-988B-45ED-B201-30CCB4CE875A}|Assignments\\2.3 Snackbar.csproj|solutionrelative:assignments\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 11\\Day 2\\Assignments\\Assignments\\Form1.cs",
+              "RelativeDocumentMoniker": "Assignments\\Form1.cs",
+              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 11\\Day 2\\Assignments\\Assignments\\Form1.cs",
+              "RelativeToolTip": "Assignments\\Form1.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAwwE8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:40:08.851Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SnackBar.cs",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 11\\Day 2\\Assignments\\Assignments\\SnackBar.cs",
+              "RelativeDocumentMoniker": "Assignments\\SnackBar.cs",
+              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 11\\Day 2\\Assignments\\Assignments\\SnackBar.cs",
+              "RelativeToolTip": "Assignments\\SnackBar.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAmwA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T13:19:09.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 11\\Day 2\\Assignments\\Assignments\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Assignments\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 11\\Day 2\\Assignments\\Assignments\\Form1.Designer.cs",
+              "RelativeToolTip": "Assignments\\Form1.Designer.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwB8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T12:01:04.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 11\\Day 2\\Assignments\\Assignments\\Form1.cs",
+              "RelativeDocumentMoniker": "Assignments\\Form1.cs",
+              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 11\\Day 2\\Assignments\\Assignments\\Form1.cs [Design]",
+              "RelativeToolTip": "Assignments\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T20:08:52.695Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Snack.cs",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 11\\Day 2\\Assignments\\Assignments\\Snack.cs",
+              "RelativeDocumentMoniker": "Assignments\\Snack.cs",
+              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 11\\Day 2\\Assignments\\Assignments\\Snack.cs",
+              "RelativeToolTip": "Assignments\\Snack.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T14:05:26.357Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

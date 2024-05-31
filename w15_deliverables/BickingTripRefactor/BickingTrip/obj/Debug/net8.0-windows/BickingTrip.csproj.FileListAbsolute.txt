@@ -1,0 +1,17 @@
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\bin\Debug\net8.0-windows\BickingTrip.exe
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\bin\Debug\net8.0-windows\BickingTrip.deps.json
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\bin\Debug\net8.0-windows\BickingTrip.runtimeconfig.json
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\bin\Debug\net8.0-windows\BickingTrip.dll
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\bin\Debug\net8.0-windows\BickingTrip.pdb
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\obj\Debug\net8.0-windows\BickingTrip.Form1.resources
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\obj\Debug\net8.0-windows\BickingTrip.Properties.Resources.resources
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\obj\Debug\net8.0-windows\BickingTrip.csproj.GenerateResource.cache
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\obj\Debug\net8.0-windows\BickingTrip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\obj\Debug\net8.0-windows\BickingTrip.AssemblyInfoInputs.cache
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\obj\Debug\net8.0-windows\BickingTrip.AssemblyInfo.cs
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\obj\Debug\net8.0-windows\BickingTrip.csproj.CoreCompileInputs.cache
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\obj\Debug\net8.0-windows\BickingTrip.dll
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\obj\Debug\net8.0-windows\refint\BickingTrip.dll
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\obj\Debug\net8.0-windows\BickingTrip.pdb
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\obj\Debug\net8.0-windows\BickingTrip.genruntimeconfig.cache
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 2\Assignments\BickingTripRefactor\BickingTrip\obj\Debug\net8.0-windows\ref\BickingTrip.dll

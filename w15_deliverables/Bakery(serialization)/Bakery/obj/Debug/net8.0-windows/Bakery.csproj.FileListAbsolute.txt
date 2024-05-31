@@ -1,0 +1,17 @@
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\obj\Debug\net8.0-windows\Bakery.AddForm.resources
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\obj\Debug\net8.0-windows\Bakery.MainForm.resources
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\obj\Debug\net8.0-windows\Bakery.csproj.GenerateResource.cache
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\obj\Debug\net8.0-windows\Bakery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\obj\Debug\net8.0-windows\Bakery.AssemblyInfoInputs.cache
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\obj\Debug\net8.0-windows\Bakery.AssemblyInfo.cs
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\obj\Debug\net8.0-windows\Bakery.csproj.CoreCompileInputs.cache
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\bin\Debug\net8.0-windows\Bakery.exe
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\bin\Debug\net8.0-windows\Bakery.deps.json
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\bin\Debug\net8.0-windows\Bakery.runtimeconfig.json
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\bin\Debug\net8.0-windows\Bakery.dll
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\bin\Debug\net8.0-windows\Bakery.pdb
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\obj\Debug\net8.0-windows\Bakery.dll
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\obj\Debug\net8.0-windows\refint\Bakery.dll
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\obj\Debug\net8.0-windows\Bakery.pdb
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\obj\Debug\net8.0-windows\Bakery.genruntimeconfig.cache
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 12\Day 3\Assignments\S-Week14_BakeryStartUp\Bakery\obj\Debug\net8.0-windows\ref\Bakery.dll

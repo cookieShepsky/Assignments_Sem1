@@ -1,0 +1,5 @@
+C:\Users\rodyj\Desktop\Snackbar\2.3 Snackbar.exe
+C:\Users\rodyj\Desktop\Snackbar\2.3 Snackbar.dll
+C:\Users\rodyj\Desktop\Snackbar\2.3 Snackbar.deps.json
+C:\Users\rodyj\Desktop\Snackbar\2.3 Snackbar.runtimeconfig.json
+C:\Users\rodyj\Desktop\Snackbar\2.3 Snackbar.pdb

@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|c:\\users\\rodyj\\desktop\\rodyjansenassignmentsw15feedback\\music streaming\\streamingmusicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|solutionrelative:streamingmusicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\streamingmusicapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|solutionrelative:streamingmusicapp\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\streamingmusicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|solutionrelative:streamingmusicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\streamingmusicapp\\streamingmusicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|solutionrelative:streamingmusicapp\\streamingmusicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\streamingmusicapp\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|solutionrelative:streamingmusicapp\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\streamingmusicapp\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{186EEF80-4F89-4C48-8C82-AD88234B554D}|StreamingMusicApp\\StreamingMusicApp.csproj|solutionrelative:streamingmusicapp\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\StreamingMusicApp\\Form1.cs",
+              "RelativeDocumentMoniker": "StreamingMusicApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\StreamingMusicApp\\Form1.cs [Design]",
+              "RelativeToolTip": "StreamingMusicApp\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:54:45.998Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\StreamingMusicApp\\Form1.cs",
+              "RelativeDocumentMoniker": "StreamingMusicApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\StreamingMusicApp\\Form1.cs",
+              "RelativeToolTip": "StreamingMusicApp\\Form1.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAawC4AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T11:07:06.414Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\StreamingMusicApp\\Enums.cs",
+              "RelativeDocumentMoniker": "StreamingMusicApp\\Enums.cs",
+              "ToolTip": "C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\StreamingMusicApp\\Enums.cs",
+              "RelativeToolTip": "StreamingMusicApp\\Enums.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T11:39:18.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\StreamingMusicApp\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "StreamingMusicApp\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\StreamingMusicApp\\Form1.Designer.cs",
+              "RelativeToolTip": "StreamingMusicApp\\Form1.Designer.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAlwHgAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T10:38:49.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\StreamingMusicApp\\User.cs",
+              "RelativeDocumentMoniker": "StreamingMusicApp\\User.cs",
+              "ToolTip": "C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\StreamingMusicApp\\User.cs",
+              "RelativeToolTip": "StreamingMusicApp\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:01:44.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StreamingMusicService.cs",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\StreamingMusicApp\\StreamingMusicService.cs",
+              "RelativeDocumentMoniker": "StreamingMusicApp\\StreamingMusicService.cs",
+              "ToolTip": "C:\\Users\\rodyj\\Desktop\\RodyJansenAssignmentsW15Feedback\\Music Streaming\\StreamingMusicApp\\StreamingMusicService.cs",
+              "RelativeToolTip": "StreamingMusicApp\\StreamingMusicService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T08:53:02.225Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

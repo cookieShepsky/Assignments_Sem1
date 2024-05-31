@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B82BC2A-AB93-4AEA-825C-9849A6A1DA24}|BickingTrip\\BickingTrip.csproj|C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\bickingtrip\\tripmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B82BC2A-AB93-4AEA-825C-9849A6A1DA24}|BickingTrip\\BickingTrip.csproj|solutionrelative:bickingtrip\\tripmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B82BC2A-AB93-4AEA-825C-9849A6A1DA24}|BickingTrip\\BickingTrip.csproj|C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\bickingtrip\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B82BC2A-AB93-4AEA-825C-9849A6A1DA24}|BickingTrip\\BickingTrip.csproj|solutionrelative:bickingtrip\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B82BC2A-AB93-4AEA-825C-9849A6A1DA24}|BickingTrip\\BickingTrip.csproj|c:\\users\\rodyj\\documents\\fhict\\sem1\\week 12\\day 2\\assignments\\bickingtriprefactor\\bickingtrip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B82BC2A-AB93-4AEA-825C-9849A6A1DA24}|BickingTrip\\BickingTrip.csproj|solutionrelative:bickingtrip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B82BC2A-AB93-4AEA-825C-9849A6A1DA24}|BickingTrip\\BickingTrip.csproj|C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\bickingtrip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B82BC2A-AB93-4AEA-825C-9849A6A1DA24}|BickingTrip\\BickingTrip.csproj|solutionrelative:bickingtrip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B82BC2A-AB93-4AEA-825C-9849A6A1DA24}|BickingTrip\\BickingTrip.csproj|C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\bickingtrip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B82BC2A-AB93-4AEA-825C-9849A6A1DA24}|BickingTrip\\BickingTrip.csproj|solutionrelative:bickingtrip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B82BC2A-AB93-4AEA-825C-9849A6A1DA24}|BickingTrip\\BickingTrip.csproj|C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\bickingtrip\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{8B82BC2A-AB93-4AEA-825C-9849A6A1DA24}|BickingTrip\\BickingTrip.csproj|solutionrelative:bickingtrip\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\BickingTrip\\Form1.cs",
+              "RelativeDocumentMoniker": "BickingTrip\\Form1.cs",
+              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\BickingTrip\\Form1.cs*",
+              "RelativeToolTip": "BickingTrip\\Form1.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:00:17.21Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Trip.cs",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\BickingTrip\\Trip.cs",
+              "RelativeDocumentMoniker": "BickingTrip\\Trip.cs",
+              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\BickingTrip\\Trip.cs",
+              "RelativeToolTip": "BickingTrip\\Trip.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:20:45.116Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TripManager.cs",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\BickingTrip\\TripManager.cs",
+              "RelativeDocumentMoniker": "BickingTrip\\TripManager.cs",
+              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\BickingTrip\\TripManager.cs",
+              "RelativeToolTip": "BickingTrip\\TripManager.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwEwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:48:30.077Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\BickingTrip\\Program.cs",
+              "RelativeDocumentMoniker": "BickingTrip\\Program.cs",
+              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\BickingTrip\\Program.cs",
+              "RelativeToolTip": "BickingTrip\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T08:54:57.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\BickingTrip\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "BickingTrip\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\BickingTrip\\Properties\\Resources.resx",
+              "RelativeToolTip": "BickingTrip\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-14T09:02:22.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\BickingTrip\\Form1.cs",
+              "RelativeDocumentMoniker": "BickingTrip\\Form1.cs",
+              "ToolTip": "C:\\Users\\rodyj\\Documents\\FHICT\\Sem1\\Week 12\\Day 2\\Assignments\\BickingTripRefactor\\BickingTrip\\Form1.cs [Design]",
+              "RelativeToolTip": "BickingTrip\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T09:01:46.97Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 11\Day 3\Assignments\1.3_Lottery\bin\Debug\net8.0-windows\1.3_Lottery.exe
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 11\Day 3\Assignments\1.3_Lottery\bin\Debug\net8.0-windows\1.3_Lottery.deps.json
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 11\Day 3\Assignments\1.3_Lottery\bin\Debug\net8.0-windows\1.3_Lottery.runtimeconfig.json
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 11\Day 3\Assignments\1.3_Lottery\bin\Debug\net8.0-windows\1.3_Lottery.dll
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 11\Day 3\Assignments\1.3_Lottery\bin\Debug\net8.0-windows\1.3_Lottery.pdb
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 11\Day 3\Assignments\1.3_Lottery\obj\Debug\net8.0-windows\_1._3_Lottery.Form1.resources
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 11\Day 3\Assignments\1.3_Lottery\obj\Debug\net8.0-windows\1.3_Lottery.csproj.GenerateResource.cache
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 11\Day 3\Assignments\1.3_Lottery\obj\Debug\net8.0-windows\1.3_Lottery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 11\Day 3\Assignments\1.3_Lottery\obj\Debug\net8.0-windows\1.3_Lottery.AssemblyInfoInputs.cache
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 11\Day 3\Assignments\1.3_Lottery\obj\Debug\net8.0-windows\1.3_Lottery.AssemblyInfo.cs
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 11\Day 3\Assignments\1.3_Lottery\obj\Debug\net8.0-windows\1.3_Lottery.csproj.CoreCompileInputs.cache
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 11\Day 3\Assignments\1.3_Lottery\obj\Debug\net8.0-windows\1.3_Lottery.dll
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 11\Day 3\Assignments\1.3_Lottery\obj\Debug\net8.0-windows\refint\1.3_Lottery.dll
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 11\Day 3\Assignments\1.3_Lottery\obj\Debug\net8.0-windows\1.3_Lottery.pdb
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 11\Day 3\Assignments\1.3_Lottery\obj\Debug\net8.0-windows\1.3_Lottery.genruntimeconfig.cache
+C:\Users\rodyj\Documents\FHICT\Sem1\Week 11\Day 3\Assignments\1.3_Lottery\obj\Debug\net8.0-windows\ref\1.3_Lottery.dll
