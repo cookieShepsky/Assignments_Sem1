@@ -123,6 +123,7 @@ public class Bakery
     /// </summary>
     public Bakery JsonLoad()
     {
+        //TODO: loading sandwiches without ingredients...
         OpenFileDialog browser = new();
         browser.ShowDialog();
         if (browser.FileName == "") return null;
