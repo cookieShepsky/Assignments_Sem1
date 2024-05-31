@@ -27,6 +27,7 @@ _This is written in the context of a solo dev wanting to make a local repo, and 
 - branches can be perceived as a timeline of project commits. these branches run in parallel.
 - this is useful for adding new/experimental features that we want to keep separate of the main version (**master branch**) for the time being.
 - we can create a new branch using `git branch <branch-name>`
+- alternatively, we can use the -b flag to specify that we're creating a new branch: `git branch -b <branch-name>` (good practice for remote repositories)
 - and use `git branch` to list the current existing branches.
 - we then switch to a branch using `git checkout <branch-name>`
 - committing will always commit to the current branch you are "checked out" to.
@@ -45,7 +46,9 @@ _This is written in the context of a solo dev wanting to make a local repo, and 
 2. Go to GitHub (or a similar tool like GitLab) and make a new repository.
 3. Connect your local repo to the GitHub repo ("adding a remote").
 4. "Push" your files up to GitHub using the new remote.
-   <br><br>
+5. "Pull" remote files/commits to your local repo.
+<br><br>
+
 ##### 1. Creating a local repo
 We should already know how to do this.
 We initialize any dir as a repository using `git init`.
@@ -59,12 +62,22 @@ We now have to connect our local repository to GitHub. We achieve this by adding
 We can do this by first getting the `.git` url of our repository. This can usually be found on the main page of our repository under a big "clone" or "code" button.
 It should look something like https://github.com/person/repository_name.git<br>
 We can now add this remote to our repo using `git remote`:<br>
+- `git remote add <remote-name> <url>` will add a new remote to our repo. The name can be anything, a bit like a variable for a URL, but should usually be "origin" (by convention).
 - `git remote -v` (verbose) will list all our remotes as urls.
-- `git remote add <remote-name> <url>` will add a new remote to our repo. The name can be anything, a bit like a variable for a URL.
 
 ##### 4. Pushing
 We can now use `git push -u <remote-name> <branch>` to push our commits to the remote repo.<br>
 The -u flag creates a sort of "tracker" on the remote branch, that links the remote branch to your local branch of the same name, thus there will be no need for specifying this specific branch anymore when pushing commits on it.<br>
-By default, `git push` will push to remote-name: origin by default.<br><br>
-To clarify. after we make our _initial_ push to our remote repo using ex: `git push -u origin master`, we can from here forward push to master using `git push`.
+***!!HOWEVER!!*** -- It is good practice to still use `git push -u <remote-name> <branch>` as this way you are always intentional about what branch you are pushing to. <br><br>
+By default, `git push` will push to remote-name: origin.<br>
+Default remote-name can be set in the config (in the .git dir, or through config commands _(which i will not get in to here. It's an easy google)_)<br><br>
+To clarify. after we make our _initial_ push to our remote repo using ex: `git push -u origin master`("origin" here is the name we gave our remote earlier), we can from here forward push to master using `git push`.
 
+##### 5. Pulling
+To get files/commits that are on the remote repo into your repository, we need to pull them into our repository. This is basically the inverse of pushing and has similar syntax.<br>
+`git pull <remote-branch> <branch>`<br>
+
+##### Cloning
+When you want to "pull" a remote repo without having worked in the repository before (for example, as a collaborator) we use `git clone <url>`<br>
+Here we use the same URL we would use for adding a remote to an existing local repo.<br>
+This will essentially copy the entire repo over to your local storage (whereever you are executing the command), and let you work in it as you would in any git repo (so long as you are a collaborator).
