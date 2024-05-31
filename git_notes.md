@@ -80,4 +80,10 @@ To get files/commits that are on the remote repo into your repository, we need t
 ##### Cloning
 When you want to "pull" a remote repo without having worked in the repository before (for example, as a collaborator) we use `git clone <url>`<br>
 Here we use the same URL we would use for adding a remote to an existing local repo.<br>
-This will essentially copy the entire repo over to your local storage (whereever you are executing the command), and let you work in it as you would in any git repo (so long as you are a collaborator).
+This will essentially copy the entire repo over to your local storage (whereever you are executing the command), and let you work in it as you would in any git repo (so long as you are a collaborator).<br>
+Cloning will automatically set your origin remote to whereever you cloned the repo from. Thus preventing the need to `git remote add`
+
+### References
+- [Colt Steele (yt)](https://www.youtube.com/watch?v=USjZcfj8yxE)
+- [Colt Steele (yt)](https://www.youtube.com/watch?v=nhNq2kIvi9s&t=909s)
+-  documentation
