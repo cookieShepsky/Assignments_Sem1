@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|o:\\fhict\\assignments_sem1\\w15_deliverables\\bakery(serialization)\\bakery\\bakery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\bakery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\bakery\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|o:\\fhict\\assignments_sem1\\w15_deliverables\\bakery(serialization)\\bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|o:\\fhict\\assignments_sem1\\w15_deliverables\\bakery(serialization)\\bakery\\bakery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|solutionrelative:bakery\\bakery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C099BD28-E59F-438B-A476-0168BE4FDAAB}|Bakery\\Bakery.csproj|o:\\fhict\\assignments_sem1\\w15_deliverables\\bakery(serialization)\\bakery\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,35 +42,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AddForm.cs [Design]",
               "DocumentMoniker": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\AddForm.cs",
               "RelativeDocumentMoniker": "Bakery\\AddForm.cs",
               "ToolTip": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\AddForm.cs [Design]",
               "RelativeToolTip": "Bakery\\AddForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T14:12:44.812Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-29T14:12:44.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\MainForm.cs",
               "RelativeDocumentMoniker": "Bakery\\MainForm.cs",
               "ToolTip": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\MainForm.cs [Design]",
               "RelativeToolTip": "Bakery\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T12:12:23.405Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-29T12:12:23.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainForm.cs",
               "DocumentMoniker": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\MainForm.cs",
               "RelativeDocumentMoniker": "Bakery\\MainForm.cs",
@@ -78,12 +76,11 @@
               "RelativeToolTip": "Bakery\\MainForm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:00:19.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:00:19.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AddForm.cs",
               "DocumentMoniker": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\AddForm.cs",
               "RelativeDocumentMoniker": "Bakery\\AddForm.cs",
@@ -91,18 +88,17 @@
               "RelativeToolTip": "Bakery\\AddForm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T09:41:48.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T09:41:48.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Bakery.cs",
               "DocumentMoniker": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\Bakery.cs",
               "RelativeDocumentMoniker": "Bakery\\Bakery.cs",
               "ToolTip": "O:\\FHICT\\Assignments_Sem1\\w15_deliverables\\Bakery(serialization)\\Bakery\\Bakery.cs",
               "RelativeToolTip": "Bakery\\Bakery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAswHsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T11:29:30.831Z",
               "EditorCaption": ""
@@ -117,8 +113,7 @@
               "RelativeToolTip": "Bakery\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T09:40:12.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T09:40:12.985Z"
             },
             {
               "$type": "Document",
@@ -130,8 +125,7 @@
               "RelativeToolTip": "Bakery\\Sandwich.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T09:08:18.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T09:08:18.089Z"
             },
             {
               "$type": "Document",
@@ -143,8 +137,7 @@
               "RelativeToolTip": "Bakery\\Ingredient.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T08:51:44.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T08:51:44.961Z"
             }
           ]
         }
