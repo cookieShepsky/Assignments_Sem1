@@ -2,11 +2,4 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/w15_deliverables/Bakery(serialization)/.vs/Bakery/FileContentIndex/08419d07-3698-406e-a44b-64a54ae89f2c.vsidx
-/w15_deliverables/Bakery(serialization)/.vs/Bakery/FileContentIndex/2d93e653-77b0-4d82-b2b4-8a20bc09d0b0.vsidx
-/w15_deliverables/Bakery(serialization)/.vs/Bakery/FileContentIndex/43728be8-2d4c-4e2a-8ea8-73dda8d14de3.vsidx
-/w15_deliverables/Bakery(serialization)/.vs/Bakery/FileContentIndex/460dc227-4821-4388-81b7-03f79da93729.vsidx
-/w15_deliverables/Bakery(serialization)/.vs/Bakery/FileContentIndex/77b2092e-dae5-407f-9fd9-ffdd4f640d14.vsidx
-/w15_deliverables/Bakery(serialization)/.vs/Bakery/FileContentIndex/df0a61f2-f511-497f-81dd-be7f36972c32.vsidx
-/w15_deliverables/Bakery(serialization)/.vs/Bakery/FileContentIndex/fc3dbcf7-b0f0-4bbb-854e-ad4626dbeb37.vsidx
-/w15_deliverables/Bakery(serialization)/.vs/Bakery/FileContentIndex/f1313713-c6fb-42f4-8f38-24a621bcc8a8.vsidx
+w15_deliverables/Bakery(serialization)/.vs/
