@@ -82,10 +82,11 @@ namespace Bakery
                 bakkerBart = loadData;
                 RefreshMenu();
             }
+            catch (HighIngredientException ex)
+            { MessageBox.Show(ex.Message + "\n\n The json you tried to load has a sandwich with an invalid amount of ingredients."); }
+
             catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            { MessageBox.Show(ex.Message); }
         }
 
         private void lbxMenu_SelectedIndexChanged(object sender, EventArgs e)

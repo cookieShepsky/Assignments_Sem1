@@ -45,7 +45,7 @@ public class Sandwich
     public bool IsValid()
     {
         if (string.IsNullOrEmpty(this.Name)) return false;
-        if (Ingredients.Count <= 5) return false;
+        if (Ingredients.Count >= 5) return false;
         return true;
     }
 
