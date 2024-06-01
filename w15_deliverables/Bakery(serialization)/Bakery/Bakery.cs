@@ -136,7 +136,7 @@ public class Bakery
     }
 
     /// <summary>
-    /// Adds 5 various sandwiches to AvailableSandwiches
+    /// Adds 5 various sandwiches to AvailableSandwiches for debug purposes.
     /// </summary>
     public void DebugTestSandwiches()
     {

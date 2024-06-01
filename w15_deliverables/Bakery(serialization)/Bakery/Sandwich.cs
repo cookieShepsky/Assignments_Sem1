@@ -1,15 +1,34 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
+using System.Text.Json.Serialization;
 
 namespace Bakery;
 
-public class Sandwich(string name, double basePrice, BreadType bread)
+public class Sandwich
 {
-    public string Name { get; set; } = name;
-    public double BasePrice { get; set; } = basePrice;
-    public BreadType Bread { get; set; } = bread;
-
+    public string Name { get; set; }
+    public double BasePrice { get; set; }
+    public BreadType Bread { get; set; }
     public List<Ingredient> Ingredients { get; } = [];
+
+    public Sandwich(string name, double basePrice, BreadType bread)
+    {
+        this.Name = name;
+        this.BasePrice = basePrice;
+        this.Bread = bread;
+    }
+
+    [JsonConstructor]
+    public Sandwich(string name, double basePrice, BreadType bread, List<Ingredient> ingredients)
+    {
+        this.Name = name;
+        this.BasePrice = basePrice;
+        this.Bread = bread;
+        this.Ingredients = ingredients;
+        if (Ingredients.Count > 5)
+            throw new HighIngredientException(ingredients.Count);
+    }
 
     public bool AddIngredient(Ingredient ingredient)
     {
@@ -25,7 +44,9 @@ public class Sandwich(string name, double basePrice, BreadType bread)
 
     public bool IsValid()
     {
-        return !string.IsNullOrEmpty(this.Name);
+        if (string.IsNullOrEmpty(this.Name)) return false;
+        if (Ingredients.Count >= 5) return false;
+        return true;
     }
 
     public override string ToString()
