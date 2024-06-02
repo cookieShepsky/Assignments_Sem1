@@ -43,8 +43,7 @@ _This is written in the context of a solo dev wanting to make a local repo, and 
 ***THESE 2 POINTS ARE ONLY VALID IF WE HAVE USED `git clone` TO GET ACCESS TO THE REPO. NOT IF WE'RE THE ONES MAKING THE REPO!***
 - if we want to update our online repository with our latest commit we can "push to"/update the remote repository, if we're using one, using `git push`
 - if we want to retrieve the latest commit from the repository, we can `git pull`
- <br>
-***
+ <br><br>
   _Going a bit more in depth, we can talk about the work flow for an online repository._
 1. Create a local repo, and add/commit as you please.
 2. Go to GitHub (or a similar tool like GitLab) and make a new repository.
