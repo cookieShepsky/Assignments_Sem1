@@ -22,6 +22,10 @@ _This is written in the context of a solo dev wanting to make a local repo, and 
 ### rolling back
 - using `git checkout <commit-hash>` we can roll back to a previous commit.
 - this will put us on a different branch.
+<br><br>
+- we can also use `git revert <commit-hash>' to undo the changes of a certain commit.
+- this creates a new commit, that adds/deletes the opposite of what the selected commit did. Effectively reverting the changes made in that commit.
+- this allows us to undo changes with the changes staying visible in the commit history.
 
 ### branches
 - branches can be perceived as a timeline of project commits. these branches run in parallel.
