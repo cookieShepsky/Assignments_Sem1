@@ -1,6 +1,6 @@
 # Visual Studio local files
-**/.vs/**
 w15_deliverables/Bakery(serialization)/.vs/**
 Gardener/Gardener/.vs/**
+Gardener/obj/Debug/net8.0-windows/**
 # Rider local files
 .idea/
