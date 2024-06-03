@@ -17,5 +17,5 @@ public enum PlantColor
     Orange,
     Brown,
     Lavender,
-    
+    Other,
 }
