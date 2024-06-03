@@ -1,4 +1,6 @@
-﻿namespace Gardener;
+﻿using System.Text.Json.Serialization;
+
+namespace Gardener;
 
 public class Plant
 {
@@ -15,6 +17,17 @@ public class Plant
         this.Color = color;
         this.Evergreen = evergreen;
         this.Type = type;
+    }
+
+    [JsonConstructor]
+    public Plant(string name, string color, bool evergreen, PlantType type, List<(Month, Month)> blossomPeriods, List<(Month, Month)> prunePeriods)
+    {
+        this.Name = name;
+        this.Color = color;
+        this.Evergreen = evergreen;
+        this.Type = type;
+        this.BlossomPeriods = blossomPeriods;
+        this.PrunePeriods = prunePeriods;
     }
 
     /// <summary>
