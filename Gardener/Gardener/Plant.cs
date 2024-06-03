@@ -49,8 +49,8 @@ public class Plant
 
         if (string.IsNullOrEmpty(this.Name)) faults.Add(Fault.NameEmpty);
         if (string.IsNullOrEmpty(this.Color)) faults.Add(Fault.ColorEmpty);
-        if (this.BlossomPeriods.Count < 1) faults.Add(Fault.LowBlossomPeriodsCount);
-        if (this.PrunePeriods.Count < 1) faults.Add(Fault.LowPrunePeriodsCount);
+        if (this.BlossomPeriods.Count == 0) faults.Add(Fault.LowBlossomPeriodsCount);
+        if (this.PrunePeriods.Count == 0) faults.Add(Fault.LowPrunePeriodsCount);
 
         if (faults.Count == 0) faults.Add(Fault.None);
         return faults;
