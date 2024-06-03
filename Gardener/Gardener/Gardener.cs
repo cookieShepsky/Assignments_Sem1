@@ -20,9 +20,10 @@ public class Gardener
     /// <returns> List of faults, will contain Garden.Fault.None if valid. </returns>
     public List<Garden.Fault> AddGarden(Garden garden)
     {
+        // TODO: Prevent duplicate garden names
         if (garden.Validate()[0] == Garden.Fault.None)
             Gardens.Add(garden);
-
+        
         return garden.Validate();
     }
 
