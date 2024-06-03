@@ -29,7 +29,10 @@ public class Plant
         BlossomPeriods.Add(period);
     }
 
-    public List<Fault> Validate()   // Should Return a list of Enums
+    /// <summary>
+    /// Returns a list of enums indicating what's wrong with the object.
+    /// </summary>
+    public List<Fault> Validate()
     {
         List<Fault> faults = [];
 
