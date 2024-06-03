@@ -23,4 +23,32 @@ public class Plant
         this.Evergreen = evergreen;
         this.Type = type;
     }
+
+    public void AddBlossomPeriod((Month, Month) period)
+    {
+        BlossomPeriods.Add(period);
+    }
+
+    public List<Fault> Validate()   // Should Return a list of Enums
+    {
+        List<Fault> faults = [];
+
+        if (string.IsNullOrEmpty(this.Name)) faults.Add(Fault.NameEmpty);
+        if (string.IsNullOrEmpty(this.Color)) faults.Add(Fault.ColorEmpty);
+        if (this.BlossomPeriods.Count < 1) faults.Add(Fault.LowBlossomPeriodsCount);
+        if (this.PrunePeriods.Count < 1) faults.Add(Fault.LowPrunePeriodsCount);
+
+        if (faults.Count == 0) faults.Add(Fault.None);
+        return faults;
+    }
+
+    public enum Fault
+    {
+        None,
+        NameEmpty,
+        ColorEmpty,
+        LowBlossomPeriodsCount,
+        LowPrunePeriodsCount
+    }
 }
+
