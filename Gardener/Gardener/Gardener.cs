@@ -1,9 +1,11 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace Gardener;
 
 public class Gardener
 {
+    private string _saveFile = "";
     public List<Garden> Gardens { get; set; } = [];
 
     public Gardener() {}    // need an empty constructor so we can create the object without passing a list (like the json would need to do)
@@ -53,4 +55,85 @@ public class Gardener
         return prunablePlants;
     }
 
+    /// <summary>
+    /// Return the first month in which this garden is in peak blossom.
+    /// </summary>
+    public Month GetPeakBlossom(Garden garden)
+    {
+        int[] monthValues = new int[12];
+
+        // for every plant in the garden
+        foreach (Plant p in garden.Plants)
+        {
+            // for every blossom period for that plant
+            foreach ((Month, Month) period in p.BlossomPeriods)
+            {
+                // get the start and end months
+                Month start = period.Item1;
+                Month end = period.Item2;
+
+                // for every month in the year
+                foreach (Month m in Enum.GetValues(typeof(Month)))
+                {
+                    //check if it falls within the blossom period
+                    if (m >= start && m <= end)
+                        monthValues[(int)m] += 1;
+            }
+        }
+                }
+
+        // get the value of the month with the most blossom
+        int maxMonth = monthValues.Max();
+        // find what month corresponds with that value
+        Month peakMonth = (Month)Array.IndexOf(monthValues, maxMonth);
+        return peakMonth;
+    }
+
+    /// <summary>
+    /// Saves all garden data to a json file.
+    /// </summary>
+    public bool JsonSave()
+    {
+        FolderBrowserDialog browser = new();
+        string saveName = @"GardenData.json";
+
+        // If a file has been previously saved, use previously used _saveFile as default dir
+        if (_saveFile != "")
+            browser.InitialDirectory = _saveFile;
+        
+        browser.ShowDialog();
+
+        _saveFile = browser.SelectedPath;
+
+        // If no path was selected
+        if (_saveFile == "") return false;
+        _saveFile += saveName;
+
+        string json = JsonSerializer.Serialize(this);
+        File.WriteAllText(_saveFile,json);
+        return true;
+    }
+
+    /// <summary>
+    /// Loads data from a json file
+    /// </summary>
+    /// <returns> Gardener object;<br/>
+    /// Null if file not found.</returns>
+    public Gardener? JsonLoad()
+    {
+        OpenFileDialog browser = new();
+
+        // If a file has been previously saved, use previously used _saveFile as default dir
+        if (_saveFile != "")
+            browser.InitialDirectory = _saveFile;
+
+        browser.ShowDialog();
+
+        if (browser.FileName == "") return null;
+        _saveFile = browser.FileName;
+
+        string json = File.ReadAllText(_saveFile);
+        Gardener data = JsonSerializer.Deserialize<Gardener>(json)!;
+        return data;
+    }
 }
