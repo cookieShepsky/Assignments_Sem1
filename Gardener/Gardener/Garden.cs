@@ -2,7 +2,7 @@
 
 namespace Gardener;
 
-internal class Garden
+public class Garden
 {
     public string Name { get; set; }
     public List<Plant> Plants { get; private set; } = [];

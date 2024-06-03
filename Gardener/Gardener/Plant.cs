@@ -20,7 +20,7 @@ public class Plant
     }
 
     [JsonConstructor]
-    public Plant(string name, string color, bool evergreen, PlantType type, List<(Month, Month)> blossomPeriods, List<(Month, Month)> prunePeriods)
+    public Plant(string name, string color, bool evergreen, PlantType type,List<(Month, Month)> blossomPeriods, List<(Month, Month)> prunePeriods)
     {
         this.Name = name;
         this.Color = color;
