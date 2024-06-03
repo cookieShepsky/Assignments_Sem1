@@ -78,9 +78,9 @@ public class Gardener
                     //check if it falls within the blossom period
                     if (m >= start && m <= end)
                         monthValues[(int)m] += 1;
+                }
             }
         }
-                }
 
         // get the value of the month with the most blossom
         int maxMonth = monthValues.Max();
