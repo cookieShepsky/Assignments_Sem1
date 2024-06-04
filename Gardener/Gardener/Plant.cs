@@ -42,6 +42,34 @@ public class Plant
 
     public override string ToString() { return this.Name; }
 
+    public string ShowInfo()
+    {
+        string msg = $"Plant name: {this.Name}\n" +
+                     $"Plant color: {this.Color}\n" +
+                     $"Evergreen: {this.Evergreen}" +
+                     $"Plant type: {this.Type}\n" +
+                     $"Blossom Period(s):\n";
+
+        foreach ((Month, Month) period in BlossomPeriods)
+        {
+            Month start = period.Item1;
+            Month end = period.Item2;
+            
+            msg += $"\tFrom {start} to {end}.\n";
+        }
+
+        msg += $"Pruning Period(s):\n";
+        foreach ((Month, Month) period in PrunePeriods)
+        {
+            Month start = period.Item1;
+            Month end = period.Item2;
+
+            msg += $"\tFrom {start} to {end}";
+        }
+
+        return msg;
+    }
+
     /// <summary>
     /// Returns a list of enums indicating what's wrong with the object.
     /// </summary>
