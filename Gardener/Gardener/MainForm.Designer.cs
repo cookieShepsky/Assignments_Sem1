@@ -33,18 +33,20 @@
             btnRemove = new Button();
             btnAdd = new Button();
             tbGardenName = new TextBox();
+            btnGardenSelect = new Button();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox1
             // 
             groupBox1.Controls.Add(cbxGardenRemove);
+            groupBox1.Controls.Add(btnGardenSelect);
             groupBox1.Controls.Add(btnRemove);
             groupBox1.Controls.Add(btnAdd);
             groupBox1.Controls.Add(tbGardenName);
             groupBox1.Location = new Point(12, 12);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(275, 94);
+            groupBox1.Size = new Size(262, 118);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "Manage Gardens";
@@ -55,14 +57,14 @@
             cbxGardenRemove.FormattingEnabled = true;
             cbxGardenRemove.Location = new Point(6, 51);
             cbxGardenRemove.Name = "cbxGardenRemove";
-            cbxGardenRemove.Size = new Size(168, 23);
+            cbxGardenRemove.Size = new Size(249, 23);
             cbxGardenRemove.TabIndex = 2;
             // 
             // btnRemove
             // 
-            btnRemove.Location = new Point(180, 50);
+            btnRemove.Location = new Point(6, 80);
             btnRemove.Name = "btnRemove";
-            btnRemove.Size = new Size(75, 23);
+            btnRemove.Size = new Size(117, 23);
             btnRemove.TabIndex = 1;
             btnRemove.Text = "Remove";
             btnRemove.UseVisualStyleBackColor = true;
@@ -86,6 +88,16 @@
             tbGardenName.Size = new Size(168, 23);
             tbGardenName.TabIndex = 0;
             // 
+            // btnGardenSelect
+            // 
+            btnGardenSelect.Location = new Point(138, 80);
+            btnGardenSelect.Name = "btnGardenSelect";
+            btnGardenSelect.Size = new Size(117, 23);
+            btnGardenSelect.TabIndex = 1;
+            btnGardenSelect.Text = "Select";
+            btnGardenSelect.UseVisualStyleBackColor = true;
+            btnGardenSelect.Click += btnGardenSelect_Click;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -106,5 +118,6 @@
         private TextBox tbGardenName;
         private Button btnRemove;
         internal ComboBox cbxGardenRemove;
+        private Button btnGardenSelect;
     }
 }

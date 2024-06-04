@@ -2,7 +2,8 @@ namespace Gardener;
 
 public partial class MainForm : Form
 {
-    private Gardener _gardener = new();
+    private readonly Gardener _gardener = new();
+    private Garden _selectedGarden;
 
     public MainForm()
     {
@@ -36,10 +37,18 @@ public partial class MainForm : Form
             {
                 _gardener.RemoveGarden(g);
                 MessageBox.Show($"Successfully removed {g.Name}");
-                return;
+                break;
             }
             else
             { MessageBox.Show($"Error, could not find a garden named {g.Name}"); }
+        RefreshForm();
+    }
+
+    private void btnGardenSelect_Click(object sender, EventArgs e)
+    {
+        if (cbxGardenRemove.SelectedIndex == -1) return;
+
+        _selectedGarden = (Garden)cbxGardenRemove.SelectedItem!;
         RefreshForm();
     }
 
@@ -50,5 +59,8 @@ public partial class MainForm : Form
         {
             cbxGardenRemove.Items.Add(g);
         }
+
+        this.Text = "GardenManager";
+        if (_selectedGarden != null) this.Text += $" | Current garden: {_selectedGarden}";  // "if statement always true" ?? no it's not???
     }
 }

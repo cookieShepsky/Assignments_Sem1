@@ -35,10 +35,7 @@ public class Garden
     /// Otherwise false.</returns>
     public bool RemovePlant(Plant plant) { return this.Plants.Remove(plant); }
 
-    public override string ToString()
-    {
-        return this.Name;
-    }
+    public override string ToString() { return this.Name; }
 
     /// <summary>
     /// Returns a list of enums indicating what's wrong with the object.
