@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using Microsoft.VisualBasic;
 
 namespace Gardener;
@@ -61,10 +62,10 @@ public partial class MainForm : Form
 
     private void RefreshForm()
     {
-        // Populate combobox
+        // Populate garden combobox
         cbxGardenRemove.Items.Clear();
         foreach (Garden g in _gardener.Gardens)
-        { cbxGardenRemove.Items.Add(g); }
+            cbxGardenRemove.Items.Add(g);
 
         // Set form text
         this.Text = "GardenManager";
@@ -73,6 +74,11 @@ public partial class MainForm : Form
         // Set lblSelectedGarden
         if (_selectedGarden != null) lblSelectedGarden.Text = _selectedGarden.ToString();
         else lblSelectedGarden.Text = "No garden selected.";
+
+        // Populate PlantType combobox
+        cbxPlantType.Items.Clear();
+        foreach (PlantType m in Enum.GetValues(typeof(PlantType)))
+            cbxPlantType.Items.Add(m);
     }
 
     private void RefreshGarden()
@@ -109,6 +115,11 @@ public partial class MainForm : Form
             MessageBox.Show("Please provide all the required information for this plant.");
             return;
         }
+        // Check if a garden is selected
+        if (_selectedGarden == null)
+        {
+            MessageBox.Show("Please select a garden first.");
+        }
 
         string newName = tbPlantName.Text;
         string newColor = tbPlantColor.Text;
@@ -117,9 +128,7 @@ public partial class MainForm : Form
 
         Plant newPlant = new(newName, newColor, newEvergreen, newType);
         //todo: newform for adding periods
-
-        // if plant is valid, add it to the garden.
-        if (newPlant.Validate()[0] == Plant.Fault.None)
-            _selectedGarden.AddPlant(newPlant);
+        NewPlant formNew = new NewPlant(newPlant, _selectedGarden);
+        formNew.Show();
     }
 }
