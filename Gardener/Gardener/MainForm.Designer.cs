@@ -125,6 +125,7 @@
             btnPlantsInfo.TabIndex = 3;
             btnPlantsInfo.Text = "Info";
             btnPlantsInfo.UseVisualStyleBackColor = true;
+            btnPlantsInfo.Click += btnPlantsInfo_Click;
             // 
             // btnPlantsRemove
             // 

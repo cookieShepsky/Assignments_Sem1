@@ -46,8 +46,8 @@ public class Plant
     {
         string msg = $"Plant name: {this.Name}\n" +
                      $"Plant color: {this.Color}\n" +
-                     $"Evergreen: {this.Evergreen}" +
-                     $"Plant type: {this.Type}\n" +
+                     $"Evergreen: {this.Evergreen}\n" +
+                     $"Plant type: {this.Type}\n\n" +
                      $"Blossom Period(s):\n";
 
         foreach ((Month, Month) period in BlossomPeriods)
@@ -58,13 +58,13 @@ public class Plant
             msg += $"\tFrom {start} to {end}.\n";
         }
 
-        msg += $"Pruning Period(s):\n";
+        msg += $"\nPruning Period(s):\n";
         foreach ((Month, Month) period in PrunePeriods)
         {
             Month start = period.Item1;
             Month end = period.Item2;
 
-            msg += $"\tFrom {start} to {end}";
+            msg += $"\tFrom {start} to {end}.\n";
         }
 
         return msg;

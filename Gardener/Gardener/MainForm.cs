@@ -1,3 +1,5 @@
+using Microsoft.VisualBasic;
+
 namespace Gardener;
 
 public partial class MainForm : Form
@@ -84,10 +86,18 @@ public partial class MainForm : Form
 
     private void btnPlantsRemove_Click(object sender, EventArgs e)
     {
+        // remove the selected plant from the garden.
         if (lbxPlants.SelectedIndex == -1) return;
         if (!_selectedGarden.RemovePlant((Plant)lbxPlants.SelectedItem!))
             MessageBox.Show("Something went wrong while removing this plant...");
         else MessageBox.Show($"{lbxPlants.SelectedItem} successfully removed!");
         RefreshGarden();
+    }
+
+    private void btnPlantsInfo_Click(object sender, EventArgs e)
+    {
+        if (lbxPlants.SelectedIndex == -1) return;
+        Plant selectedPlant = (Plant)lbxPlants.SelectedItem!;
+        MessageBox.Show(selectedPlant.ShowInfo());
     }
 }
