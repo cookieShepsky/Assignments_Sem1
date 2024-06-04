@@ -100,4 +100,26 @@ public partial class MainForm : Form
         Plant selectedPlant = (Plant)lbxPlants.SelectedItem!;
         MessageBox.Show(selectedPlant.ShowInfo());
     }
+
+    private void btnPlantAdd_Click(object sender, EventArgs e)
+    {
+        // Check for empty input
+        if (tbPlantName.Text == "" || tbPlantColor.Text == "" || cbxPlantType.SelectedIndex == -1)
+        {
+            MessageBox.Show("Please provide all the required information for this plant.");
+            return;
+        }
+
+        string newName = tbPlantName.Text;
+        string newColor = tbPlantColor.Text;
+        PlantType newType = (PlantType)cbxPlantType.SelectedItem!;
+        bool newEvergreen = cbPlantEvergreen.Checked;
+
+        Plant newPlant = new(newName, newColor, newEvergreen, newType);
+        //todo: newform for adding periods
+
+        // if plant is valid, add it to the garden.
+        if (newPlant.Validate()[0] == Plant.Fault.None)
+            _selectedGarden.AddPlant(newPlant);
+    }
 }

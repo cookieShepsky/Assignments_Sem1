@@ -39,6 +39,13 @@
             btnPlantsRemove = new Button();
             lbxPlants = new ListBox();
             lblSelectedGarden = new Label();
+            label1 = new Label();
+            tbPlantName = new TextBox();
+            tbPlantColor = new TextBox();
+            label5 = new Label();
+            cbxPlantType = new ComboBox();
+            cbPlantEvergreen = new CheckBox();
+            btnPlantAdd = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -70,7 +77,7 @@
             // 
             btnGardenSelect.Location = new Point(138, 80);
             btnGardenSelect.Name = "btnGardenSelect";
-            btnGardenSelect.Size = new Size(117, 23);
+            btnGardenSelect.Size = new Size(118, 23);
             btnGardenSelect.TabIndex = 1;
             btnGardenSelect.Text = "Select";
             btnGardenSelect.UseVisualStyleBackColor = true;
@@ -106,6 +113,13 @@
             // 
             // groupBox2
             // 
+            groupBox2.Controls.Add(btnPlantAdd);
+            groupBox2.Controls.Add(cbPlantEvergreen);
+            groupBox2.Controls.Add(cbxPlantType);
+            groupBox2.Controls.Add(label5);
+            groupBox2.Controls.Add(tbPlantColor);
+            groupBox2.Controls.Add(tbPlantName);
+            groupBox2.Controls.Add(label1);
             groupBox2.Controls.Add(btnPlantsInfo);
             groupBox2.Controls.Add(btnPlantsRemove);
             groupBox2.Controls.Add(lbxPlants);
@@ -115,7 +129,7 @@
             groupBox2.Size = new Size(262, 464);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
-            groupBox2.Text = "Mange Plants";
+            groupBox2.Text = "Manage Plants";
             // 
             // btnPlantsInfo
             // 
@@ -156,6 +170,70 @@
             lblSelectedGarden.Text = "lblSelectedGarden";
             lblSelectedGarden.TextAlign = ContentAlignment.TopCenter;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            label1.Location = new Point(7, 230);
+            label1.Name = "label1";
+            label1.Size = new Size(67, 15);
+            label1.TabIndex = 4;
+            label1.Text = "New plant:";
+            // 
+            // tbPlantName
+            // 
+            tbPlantName.Location = new Point(7, 248);
+            tbPlantName.Name = "tbPlantName";
+            tbPlantName.PlaceholderText = "Name";
+            tbPlantName.Size = new Size(249, 23);
+            tbPlantName.TabIndex = 5;
+            // 
+            // tbPlantColor
+            // 
+            tbPlantColor.Location = new Point(6, 277);
+            tbPlantColor.Name = "tbPlantColor";
+            tbPlantColor.PlaceholderText = "Color";
+            tbPlantColor.Size = new Size(249, 23);
+            tbPlantColor.TabIndex = 5;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(7, 309);
+            label5.Name = "label5";
+            label5.Size = new Size(34, 15);
+            label5.TabIndex = 6;
+            label5.Text = "Type:";
+            // 
+            // cbxPlantType
+            // 
+            cbxPlantType.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbxPlantType.FormattingEnabled = true;
+            cbxPlantType.Location = new Point(47, 306);
+            cbxPlantType.Name = "cbxPlantType";
+            cbxPlantType.Size = new Size(208, 23);
+            cbxPlantType.TabIndex = 7;
+            // 
+            // cbPlantEvergreen
+            // 
+            cbPlantEvergreen.AutoSize = true;
+            cbPlantEvergreen.Location = new Point(7, 335);
+            cbPlantEvergreen.Name = "cbPlantEvergreen";
+            cbPlantEvergreen.Size = new Size(78, 19);
+            cbPlantEvergreen.TabIndex = 8;
+            cbPlantEvergreen.Text = "Evergreen";
+            cbPlantEvergreen.UseVisualStyleBackColor = true;
+            // 
+            // btnPlantAdd
+            // 
+            btnPlantAdd.Location = new Point(138, 332);
+            btnPlantAdd.Name = "btnPlantAdd";
+            btnPlantAdd.Size = new Size(117, 23);
+            btnPlantAdd.TabIndex = 9;
+            btnPlantAdd.Text = "Add";
+            btnPlantAdd.UseVisualStyleBackColor = true;
+            btnPlantAdd.Click += btnPlantAdd_Click;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -168,6 +246,7 @@
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -184,5 +263,12 @@
         private ListBox lbxPlants;
         private Button btnPlantsInfo;
         private Button btnPlantsRemove;
+        private Label label1;
+        private ComboBox cbxPlantType;
+        private Label label5;
+        private TextBox tbPlantColor;
+        private TextBox tbPlantName;
+        private Button btnPlantAdd;
+        private CheckBox cbPlantEvergreen;
     }
 }
