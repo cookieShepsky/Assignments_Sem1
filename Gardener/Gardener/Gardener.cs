@@ -138,6 +138,9 @@ public class Gardener
         return data;
     }
 
+    /// <summary>
+    /// Add 3 generic gardens with one unique plant each to this Gardener
+    /// </summary>
     public void AddDebugGardens()
     {
         List<Garden> newGardens = [];
@@ -161,7 +164,7 @@ public class Gardener
 
         newGardens[0].AddPlant(p1);
         newGardens[1].AddPlant(p2);
-        newGardens[3].AddPlant(p3);
+        newGardens[2].AddPlant(p3);
 
         foreach (Garden g in newGardens) this.AddGarden(g);
     }
