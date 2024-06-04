@@ -62,9 +62,7 @@ public partial class MainForm : Form
         // Populate combobox
         cbxGardenRemove.Items.Clear();
         foreach (Garden g in _gardener.Gardens)
-        {
-            cbxGardenRemove.Items.Add(g);
-        }
+        { cbxGardenRemove.Items.Add(g); }
 
         // Set form text
         this.Text = "GardenManager";
@@ -82,5 +80,14 @@ public partial class MainForm : Form
         if (_selectedGarden != null)
             foreach (Plant p in _selectedGarden.Plants)
                 lbxPlants.Items.Add(p);
+    }
+
+    private void btnPlantsRemove_Click(object sender, EventArgs e)
+    {
+        if (lbxPlants.SelectedIndex == -1) return;
+        if (!_selectedGarden.RemovePlant((Plant)lbxPlants.SelectedItem!))
+            MessageBox.Show("Something went wrong while removing this plant...");
+        else MessageBox.Show($"{lbxPlants.SelectedItem} successfully removed!");
+        RefreshGarden();
     }
 }

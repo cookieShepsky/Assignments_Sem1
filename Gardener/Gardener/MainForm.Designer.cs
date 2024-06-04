@@ -35,10 +35,10 @@
             btnAdd = new Button();
             tbGardenName = new TextBox();
             groupBox2 = new GroupBox();
+            btnPlantsInfo = new Button();
+            btnPlantsRemove = new Button();
             lbxPlants = new ListBox();
             lblSelectedGarden = new Label();
-            btnPlantsRemove = new Button();
-            btnPlantsInfo = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -117,6 +117,25 @@
             groupBox2.TabStop = false;
             groupBox2.Text = "Mange Plants";
             // 
+            // btnPlantsInfo
+            // 
+            btnPlantsInfo.Location = new Point(138, 190);
+            btnPlantsInfo.Name = "btnPlantsInfo";
+            btnPlantsInfo.Size = new Size(117, 23);
+            btnPlantsInfo.TabIndex = 3;
+            btnPlantsInfo.Text = "Info";
+            btnPlantsInfo.UseVisualStyleBackColor = true;
+            // 
+            // btnPlantsRemove
+            // 
+            btnPlantsRemove.Location = new Point(7, 190);
+            btnPlantsRemove.Name = "btnPlantsRemove";
+            btnPlantsRemove.Size = new Size(116, 23);
+            btnPlantsRemove.TabIndex = 2;
+            btnPlantsRemove.Text = "Remove";
+            btnPlantsRemove.UseVisualStyleBackColor = true;
+            btnPlantsRemove.Click += btnPlantsRemove_Click;
+            // 
             // lbxPlants
             // 
             lbxPlants.FormattingEnabled = true;
@@ -135,24 +154,6 @@
             lblSelectedGarden.TabIndex = 0;
             lblSelectedGarden.Text = "lblSelectedGarden";
             lblSelectedGarden.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // btnPlantsRemove
-            // 
-            btnPlantsRemove.Location = new Point(7, 190);
-            btnPlantsRemove.Name = "btnPlantsRemove";
-            btnPlantsRemove.Size = new Size(116, 23);
-            btnPlantsRemove.TabIndex = 2;
-            btnPlantsRemove.Text = "Remove";
-            btnPlantsRemove.UseVisualStyleBackColor = true;
-            // 
-            // btnPlantsInfo
-            // 
-            btnPlantsInfo.Location = new Point(138, 190);
-            btnPlantsInfo.Name = "btnPlantsInfo";
-            btnPlantsInfo.Size = new Size(117, 23);
-            btnPlantsInfo.TabIndex = 3;
-            btnPlantsInfo.Text = "Info";
-            btnPlantsInfo.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
