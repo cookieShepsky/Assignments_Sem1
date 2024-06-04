@@ -137,4 +137,32 @@ public class Gardener
         Gardener data = JsonSerializer.Deserialize<Gardener>(json)!;
         return data;
     }
+
+    public void AddDebugGardens()
+    {
+        List<Garden> newGardens = [];
+        newGardens.AddRange(new List<Garden>()
+        {
+            new Garden("g1"),
+            new Garden("g2"),
+            new Garden("g3")
+        });
+
+        Plant p1 = new Plant("p1", "red", true, PlantType.Flower);
+        Plant p2 = new Plant("p2", "green", false, PlantType.Fungus);
+        Plant p3 = new Plant("p3", "blue", false, PlantType.Hedge);
+
+        p1.AddBlossomPeriod((Month.April, Month.August));
+        p1.AddPrunePeriod((Month.December, Month.January));
+        p2.AddBlossomPeriod((Month.April, Month.August));
+        p2.AddPrunePeriod((Month.December, Month.January));
+        p3.AddBlossomPeriod((Month.April, Month.August));
+        p3.AddPrunePeriod((Month.December, Month.January));
+
+        newGardens[0].AddPlant(p1);
+        newGardens[1].AddPlant(p2);
+        newGardens[3].AddPlant(p3);
+
+        foreach (Garden g in newGardens) this.AddGarden(g);
+    }
 }

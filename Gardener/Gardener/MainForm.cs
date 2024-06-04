@@ -50,17 +50,33 @@ public partial class MainForm : Form
 
         _selectedGarden = (Garden)cbxGardenRemove.SelectedItem!;
         RefreshForm();
+        RefreshGarden();
     }
 
     private void RefreshForm()
     {
+        // Populate combobox
         cbxGardenRemove.Items.Clear();
         foreach (Garden g in _gardener.Gardens)
         {
             cbxGardenRemove.Items.Add(g);
         }
 
+        // Set form text
         this.Text = "GardenManager";
         if (_selectedGarden != null) this.Text += $" | Current garden: {_selectedGarden}";  // "if statement always true" ?? no it's not???
+
+        // Set lblSelectedGarden
+        if (_selectedGarden != null) lblSelectedGarden.Text = _selectedGarden.ToString();
+        else lblSelectedGarden.Text = "No garden selected.";
+    }
+
+    private void RefreshGarden()
+    {
+        // Populate listbox
+        lbxPlants.Items.Clear();
+        if (_selectedGarden != null)
+            foreach (Plant p in _selectedGarden.Plants)
+                lbxPlants.Items.Add(p);
     }
 }

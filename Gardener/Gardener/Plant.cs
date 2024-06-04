@@ -40,6 +40,8 @@ public class Plant
     /// </summary>
     public void AddPrunePeriod((Month, Month) period) { PrunePeriods.Add(period); }
 
+    public override string ToString() { return this.Name; }
+
     /// <summary>
     /// Returns a list of enums indicating what's wrong with the object.
     /// </summary>

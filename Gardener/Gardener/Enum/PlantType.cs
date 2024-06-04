@@ -2,7 +2,7 @@
 
 public enum PlantType
 {
-    None,
+    Other,
     Bush,
     Flower,
     Tree,

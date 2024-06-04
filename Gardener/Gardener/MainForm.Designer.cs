@@ -30,11 +30,17 @@
         {
             groupBox1 = new GroupBox();
             cbxGardenRemove = new ComboBox();
+            btnGardenSelect = new Button();
             btnRemove = new Button();
             btnAdd = new Button();
             tbGardenName = new TextBox();
-            btnGardenSelect = new Button();
+            groupBox2 = new GroupBox();
+            lbxPlants = new ListBox();
+            lblSelectedGarden = new Label();
+            btnPlantsRemove = new Button();
+            btnPlantsInfo = new Button();
             groupBox1.SuspendLayout();
+            groupBox2.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox1
@@ -59,6 +65,16 @@
             cbxGardenRemove.Name = "cbxGardenRemove";
             cbxGardenRemove.Size = new Size(249, 23);
             cbxGardenRemove.TabIndex = 2;
+            // 
+            // btnGardenSelect
+            // 
+            btnGardenSelect.Location = new Point(138, 80);
+            btnGardenSelect.Name = "btnGardenSelect";
+            btnGardenSelect.Size = new Size(117, 23);
+            btnGardenSelect.TabIndex = 1;
+            btnGardenSelect.Text = "Select";
+            btnGardenSelect.UseVisualStyleBackColor = true;
+            btnGardenSelect.Click += btnGardenSelect_Click;
             // 
             // btnRemove
             // 
@@ -88,26 +104,68 @@
             tbGardenName.Size = new Size(168, 23);
             tbGardenName.TabIndex = 0;
             // 
-            // btnGardenSelect
+            // groupBox2
             // 
-            btnGardenSelect.Location = new Point(138, 80);
-            btnGardenSelect.Name = "btnGardenSelect";
-            btnGardenSelect.Size = new Size(117, 23);
-            btnGardenSelect.TabIndex = 1;
-            btnGardenSelect.Text = "Select";
-            btnGardenSelect.UseVisualStyleBackColor = true;
-            btnGardenSelect.Click += btnGardenSelect_Click;
+            groupBox2.Controls.Add(btnPlantsInfo);
+            groupBox2.Controls.Add(btnPlantsRemove);
+            groupBox2.Controls.Add(lbxPlants);
+            groupBox2.Controls.Add(lblSelectedGarden);
+            groupBox2.Location = new Point(12, 136);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(262, 464);
+            groupBox2.TabIndex = 1;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Mange Plants";
+            // 
+            // lbxPlants
+            // 
+            lbxPlants.FormattingEnabled = true;
+            lbxPlants.ItemHeight = 15;
+            lbxPlants.Location = new Point(7, 45);
+            lbxPlants.Name = "lbxPlants";
+            lbxPlants.Size = new Size(249, 139);
+            lbxPlants.TabIndex = 1;
+            // 
+            // lblSelectedGarden
+            // 
+            lblSelectedGarden.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
+            lblSelectedGarden.Location = new Point(6, 19);
+            lblSelectedGarden.Name = "lblSelectedGarden";
+            lblSelectedGarden.Size = new Size(249, 23);
+            lblSelectedGarden.TabIndex = 0;
+            lblSelectedGarden.Text = "lblSelectedGarden";
+            lblSelectedGarden.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // btnPlantsRemove
+            // 
+            btnPlantsRemove.Location = new Point(7, 190);
+            btnPlantsRemove.Name = "btnPlantsRemove";
+            btnPlantsRemove.Size = new Size(116, 23);
+            btnPlantsRemove.TabIndex = 2;
+            btnPlantsRemove.Text = "Remove";
+            btnPlantsRemove.UseVisualStyleBackColor = true;
+            // 
+            // btnPlantsInfo
+            // 
+            btnPlantsInfo.Location = new Point(138, 190);
+            btnPlantsInfo.Name = "btnPlantsInfo";
+            btnPlantsInfo.Size = new Size(117, 23);
+            btnPlantsInfo.TabIndex = 3;
+            btnPlantsInfo.Text = "Info";
+            btnPlantsInfo.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1458, 909);
+            Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "MainForm";
             Text = "Gardens";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            groupBox2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -119,5 +177,10 @@
         private Button btnRemove;
         internal ComboBox cbxGardenRemove;
         private Button btnGardenSelect;
+        private GroupBox groupBox2;
+        private Label lblSelectedGarden;
+        private ListBox lbxPlants;
+        private Button btnPlantsInfo;
+        private Button btnPlantsRemove;
     }
 }
