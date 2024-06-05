@@ -51,7 +51,7 @@ public partial class MainForm : Form
         RefreshForm();
     }
 
-    private void btnGardenSelect_Click(object sender, EventArgs e)
+    private void cbxGardenRemove_IndexChange(object sender, EventArgs e)
     {
         if (cbxGardenRemove.SelectedIndex == -1) return;
 
