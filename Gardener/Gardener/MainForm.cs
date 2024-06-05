@@ -16,6 +16,7 @@ public partial class MainForm : Form
 
         InitializeComponent();
         RefreshForm();
+        RefreshCbxGardenRemove();
     }
 
     private void btnAdd_Click(object sender, EventArgs e)
@@ -32,10 +33,12 @@ public partial class MainForm : Form
             MessageBox.Show(msg);
         }
         RefreshForm();
+        RefreshCbxGardenRemove();
     }
 
     private void btnRemove_Click(object sender, EventArgs e)
     {
+        // TODO: Removing a garden keeps it "selected"
         if (cbxGardenRemove.SelectedIndex == -1) return;
 
         Garden toRemove = (Garden)cbxGardenRemove.SelectedItem!;
@@ -44,11 +47,11 @@ public partial class MainForm : Form
             {
                 _gardener.RemoveGarden(g);
                 MessageBox.Show($"Successfully removed {g.Name}");
-                break;
+                RefreshForm();
+                RefreshCbxGardenRemove();
+                return;
             }
-            else
-            { MessageBox.Show($"Error, could not find a garden named {g.Name}"); }
-        RefreshForm();
+        MessageBox.Show($"Error, could not find a garden named {toRemove.Name}");
     }
 
     private void cbxGardenRemove_IndexChange(object sender, EventArgs e)
@@ -62,11 +65,6 @@ public partial class MainForm : Form
 
     private void RefreshForm()
     {
-        // Populate garden combobox
-        cbxGardenRemove.Items.Clear();
-        foreach (Garden g in _gardener.Gardens)
-            cbxGardenRemove.Items.Add(g);
-
         // Set form text
         this.Text = "GardenManager";
         if (_selectedGarden != null) this.Text += $" | Current garden: {_selectedGarden}";  // "if statement always true" ?? no it's not???
@@ -79,6 +77,14 @@ public partial class MainForm : Form
         cbxPlantType.Items.Clear();
         foreach (PlantType m in Enum.GetValues(typeof(PlantType)))
             cbxPlantType.Items.Add(m);
+    }
+
+    private void RefreshCbxGardenRemove()
+    {
+        // Populate garden combobox
+        cbxGardenRemove.Items.Clear();
+        foreach (Garden g in _gardener.Gardens)
+            cbxGardenRemove.Items.Add(g);
     }
 
     private void RefreshGarden()
@@ -129,6 +135,12 @@ public partial class MainForm : Form
         Plant newPlant = new(newName, newColor, newEvergreen, newType);
         //todo: newform for adding periods
         NewPlant formNew = new NewPlant(newPlant, _selectedGarden);
+        formNew.Closing += AddFormClosing;
         formNew.Show();
+    }
+
+    private void AddFormClosing(object? sender, CancelEventArgs e)
+    {
+        RefreshGarden();
     }
 }

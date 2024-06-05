@@ -91,4 +91,10 @@ public partial class NewPlant : Form
             MessageBox.Show(msg);
         }
     }
+
+    private void btnCancel_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show("Adding of this plant was cancelled!");
+        this.Close();
+    }
 }

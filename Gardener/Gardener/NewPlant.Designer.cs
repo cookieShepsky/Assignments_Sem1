@@ -47,6 +47,7 @@
             cbxPruneEnd = new ComboBox();
             cbxPruneStart = new ComboBox();
             btnFinish = new Button();
+            btnCancel = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -229,19 +230,30 @@
             // 
             // btnFinish
             // 
-            btnFinish.Location = new Point(12, 454);
+            btnFinish.Location = new Point(24, 454);
             btnFinish.Name = "btnFinish";
-            btnFinish.Size = new Size(274, 23);
+            btnFinish.Size = new Size(119, 23);
             btnFinish.TabIndex = 2;
             btnFinish.Text = "Finish";
             btnFinish.UseVisualStyleBackColor = true;
             btnFinish.Click += btnFinish_Click;
+            // 
+            // btnCancel
+            // 
+            btnCancel.Location = new Point(153, 454);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new Size(119, 23);
+            btnCancel.TabIndex = 2;
+            btnCancel.Text = "Cancel";
+            btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // NewPlant
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(298, 484);
+            Controls.Add(btnCancel);
             Controls.Add(btnFinish);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
@@ -281,5 +293,6 @@
         private ComboBox cbxPruneEnd;
         private ComboBox cbxPruneStart;
         private Button btnFinish;
+        private Button btnCancel;
     }
 }
