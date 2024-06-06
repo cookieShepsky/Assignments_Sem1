@@ -133,7 +133,6 @@ public partial class MainForm : Form
         bool newEvergreen = cbPlantEvergreen.Checked;
 
         Plant newPlant = new(newName, newColor, newEvergreen, newType);
-        //todo: newform for adding periods
         NewPlant formNew = new NewPlant(newPlant, _selectedGarden);
         formNew.Closing += AddFormClosing;
         formNew.Show();

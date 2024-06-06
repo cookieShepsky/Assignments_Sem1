@@ -54,6 +54,7 @@ public class Garden
     public enum Fault
     {
         None,
-        NameEmpty
+        NameEmpty,
+        NameTaken
     }
 }

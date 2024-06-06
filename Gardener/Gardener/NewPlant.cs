@@ -2,6 +2,7 @@
 
 public partial class NewPlant : Form
 {
+    //todo: check for duplicate periods
     private Plant _plant;
     private Garden _garden;
     public NewPlant(Plant incompletePlant, Garden owner)
