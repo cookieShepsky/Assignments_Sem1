@@ -34,6 +34,9 @@
             btnAdd = new Button();
             tbGardenName = new TextBox();
             groupBox2 = new GroupBox();
+            btnSelectBloom = new Button();
+            btnSelectPrune = new Button();
+            cbxSelectMonth = new ComboBox();
             btnPlantAdd = new Button();
             cbPlantEvergreen = new CheckBox();
             cbxPlantType = new ComboBox();
@@ -45,9 +48,6 @@
             btnPlantsRemove = new Button();
             lbxPlants = new ListBox();
             lblSelectedGarden = new Label();
-            cbxSelectMonth = new ComboBox();
-            btnSelectPrune = new Button();
-            btnSelectBloom = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -125,6 +125,35 @@
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             groupBox2.Text = "Manage Plants";
+            // 
+            // btnSelectBloom
+            // 
+            btnSelectBloom.Location = new Point(7, 277);
+            btnSelectBloom.Name = "btnSelectBloom";
+            btnSelectBloom.Size = new Size(249, 23);
+            btnSelectBloom.TabIndex = 11;
+            btnSelectBloom.Text = "Show Prunable Plants";
+            btnSelectBloom.UseVisualStyleBackColor = true;
+            btnSelectBloom.Click += btnSelectBloom_Click;
+            // 
+            // btnSelectPrune
+            // 
+            btnSelectPrune.Location = new Point(7, 248);
+            btnSelectPrune.Name = "btnSelectPrune";
+            btnSelectPrune.Size = new Size(249, 23);
+            btnSelectPrune.TabIndex = 11;
+            btnSelectPrune.Text = "Show Plants in Bloom";
+            btnSelectPrune.UseVisualStyleBackColor = true;
+            btnSelectPrune.Click += btnSelectBloom_Click;
+            // 
+            // cbxSelectMonth
+            // 
+            cbxSelectMonth.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbxSelectMonth.FormattingEnabled = true;
+            cbxSelectMonth.Location = new Point(7, 219);
+            cbxSelectMonth.Name = "cbxSelectMonth";
+            cbxSelectMonth.Size = new Size(249, 23);
+            cbxSelectMonth.TabIndex = 10;
             // 
             // btnPlantAdd
             // 
@@ -228,33 +257,6 @@
             lblSelectedGarden.TabIndex = 0;
             lblSelectedGarden.Text = "lblSelectedGarden";
             lblSelectedGarden.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // cbxSelectMonth
-            // 
-            cbxSelectMonth.DropDownStyle = ComboBoxStyle.DropDownList;
-            cbxSelectMonth.FormattingEnabled = true;
-            cbxSelectMonth.Location = new Point(7, 219);
-            cbxSelectMonth.Name = "cbxSelectMonth";
-            cbxSelectMonth.Size = new Size(249, 23);
-            cbxSelectMonth.TabIndex = 10;
-            // 
-            // btnSelectPrune
-            // 
-            btnSelectPrune.Location = new Point(7, 248);
-            btnSelectPrune.Name = "btnSelectPrune";
-            btnSelectPrune.Size = new Size(249, 23);
-            btnSelectPrune.TabIndex = 11;
-            btnSelectPrune.Text = "Show Plants in Bloom";
-            btnSelectPrune.UseVisualStyleBackColor = true;
-            // 
-            // btnSelectBloom
-            // 
-            btnSelectBloom.Location = new Point(7, 277);
-            btnSelectBloom.Name = "btnSelectBloom";
-            btnSelectBloom.Size = new Size(249, 23);
-            btnSelectBloom.TabIndex = 11;
-            btnSelectBloom.Text = "Show Prunable Plants";
-            btnSelectBloom.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 

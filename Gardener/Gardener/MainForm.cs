@@ -125,7 +125,7 @@ public partial class MainForm : Form
         MessageBox.Show(selectedPlant.ShowInfo());
     }
 
-    private void btnPlantAdd_Click(object sender, EventArgs e)  
+    private void btnPlantAdd_Click(object sender, EventArgs e)
     {
         // NOTE: by using a new form I do not allow editing the prune/blossom periods.
         // I do it this way because prune/blossom periods will never change.
@@ -157,5 +157,15 @@ public partial class MainForm : Form
     private void AddFormClosing(object? sender, CancelEventArgs e)
     {
         RefreshGarden();
+    }
+
+    private void btnSelectBloom_Click(object sender, EventArgs e)
+    {
+        if (cbxSelectMonth.SelectedIndex == -1)
+        {
+            MessageBox.Show("Please select a month first.");
+            return;
+        }
+        lbxPlants.Items.Clear();
     }
 }
