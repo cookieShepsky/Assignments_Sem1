@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.Numerics;
+using System.Text.Json.Serialization;
 
 namespace Gardener;
 
@@ -33,12 +34,31 @@ public class Plant
     /// <summary>
     /// Adds a period to this plant's BlossomPeriods
     /// </summary>
-    public void AddBlossomPeriod((Month, Month) period) { BlossomPeriods.Add(period); }
+    /// <returns>True if successful;<br/>
+    /// False if unsuccessful.</returns>
+    public bool AddBlossomPeriod((Month, Month) period)
+    {
+        // Check for identical periods
+        foreach ((Month, Month) existingPeriod in this.BlossomPeriods)
+            if (period == existingPeriod)
+                return false;
+
+        BlossomPeriods.Add(period);
+        return true;
+    }
 
     /// <summary>
     /// Adds a period to this plant's PrunePeriods
     /// </summary>
-    public void AddPrunePeriod((Month, Month) period) { PrunePeriods.Add(period); }
+    public bool AddPrunePeriod((Month, Month) period)
+    {
+        foreach ((Month, Month) existingPeriod in this.PrunePeriods)
+            if (period == existingPeriod)
+                return false;
+
+        PrunePeriods.Add(period);
+        return true;
+    }
 
     public override string ToString() { return this.Name; }
 
@@ -50,7 +70,7 @@ public class Plant
                      $"Plant type: {this.Type}\n\n" +
                      $"Blossom Period(s):\n";
 
-        foreach ((Month, Month) period in BlossomPeriods)
+        foreach ((Month, Month) period in this.BlossomPeriods)
         {
             Month start = period.Item1;
             Month end = period.Item2;
@@ -59,7 +79,7 @@ public class Plant
         }
 
         msg += $"\nPruning Period(s):\n";
-        foreach ((Month, Month) period in PrunePeriods)
+        foreach ((Month, Month) period in this.PrunePeriods)
         {
             Month start = period.Item1;
             Month end = period.Item2;

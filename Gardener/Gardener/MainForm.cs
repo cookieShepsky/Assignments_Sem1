@@ -6,7 +6,7 @@ namespace Gardener;
 public partial class MainForm : Form
 {
     private readonly Gardener _gardener = new();
-    private Garden _selectedGarden;
+    private Garden? _selectedGarden;
 
     public MainForm()
     {
@@ -38,7 +38,6 @@ public partial class MainForm : Form
 
     private void btnRemove_Click(object sender, EventArgs e)
     {
-        // TODO: Removing a garden keeps it "selected"
         if (cbxGardenRemove.SelectedIndex == -1) return;
 
         Garden toRemove = (Garden)cbxGardenRemove.SelectedItem!;
@@ -47,8 +46,10 @@ public partial class MainForm : Form
             {
                 _gardener.RemoveGarden(g);
                 MessageBox.Show($"Successfully removed {g.Name}");
+                _selectedGarden = null;
                 RefreshForm();
                 RefreshCbxGardenRemove();
+                RefreshGarden();
                 return;
             }
         MessageBox.Show($"Error, could not find a garden named {toRemove.Name}");
@@ -77,6 +78,9 @@ public partial class MainForm : Form
         cbxPlantType.Items.Clear();
         foreach (PlantType m in Enum.GetValues(typeof(PlantType)))
             cbxPlantType.Items.Add(m);
+
+        // Clear new plant tb's
+        tbPlantName.Text = tbPlantColor.Text = "";
     }
 
     private void RefreshCbxGardenRemove()
@@ -113,18 +117,22 @@ public partial class MainForm : Form
         MessageBox.Show(selectedPlant.ShowInfo());
     }
 
-    private void btnPlantAdd_Click(object sender, EventArgs e)
+    private void btnPlantAdd_Click(object sender, EventArgs e)  
     {
+        // NOTE: by using a new form I do not allow editing the prune/blossom periods.
+        // I do it this way because prune/blossom periods will never change.
+
+        // Check if a garden is selected
+        if (_selectedGarden == null)
+        {
+            MessageBox.Show("Please select a garden first.");
+            return;
+        }
         // Check for empty input
         if (tbPlantName.Text == "" || tbPlantColor.Text == "" || cbxPlantType.SelectedIndex == -1)
         {
             MessageBox.Show("Please provide all the required information for this plant.");
             return;
-        }
-        // Check if a garden is selected
-        if (_selectedGarden == null)
-        {
-            MessageBox.Show("Please select a garden first.");
         }
 
         string newName = tbPlantName.Text;

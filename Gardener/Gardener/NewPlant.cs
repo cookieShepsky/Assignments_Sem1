@@ -2,7 +2,6 @@
 
 public partial class NewPlant : Form
 {
-    //todo: check for duplicate periods
     private Plant _plant;
     private Garden _garden;
     public NewPlant(Plant incompletePlant, Garden owner)
@@ -30,14 +29,17 @@ public partial class NewPlant : Form
 
     private void btnBloomAdd_Click(object sender, EventArgs e)
     {
-        //todo: Check for duplicate periods
         // Check for empty input
         if (cbxBloomStart.SelectedIndex == -1 || cbxBloomEnd.SelectedIndex == -1)
         {
             MessageBox.Show("Please provide all the required information.");
             return;
         }
-        _plant.AddBlossomPeriod(((Month)cbxBloomStart.SelectedItem!, (Month)cbxBloomEnd.SelectedItem!));
+
+        (Month, Month) newPeriod = ((Month)cbxBloomStart.SelectedItem!, (Month)cbxBloomEnd.SelectedItem!);
+
+        if (!_plant.AddBlossomPeriod(newPeriod))
+            MessageBox.Show("That period has already been added!");
         RefreshListBoxes();
     }
 
@@ -49,7 +51,11 @@ public partial class NewPlant : Form
             MessageBox.Show("Please provide all the required information.");
             return;
         }
-        _plant.AddPrunePeriod(((Month)cbxPruneStart.SelectedItem!, (Month)cbxPruneEnd.SelectedItem!));
+
+        (Month, Month) newPeriod = ((Month)cbxPruneStart.SelectedItem!, (Month)cbxPruneEnd.SelectedItem!);
+
+        if (!_plant.AddPrunePeriod(newPeriod))
+            MessageBox.Show("That period has already been added!");
         RefreshListBoxes();
     }
 
