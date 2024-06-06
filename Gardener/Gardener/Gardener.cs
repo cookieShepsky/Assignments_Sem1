@@ -40,62 +40,6 @@ public class Gardener
     public bool RemoveGarden(Garden garden) { return Gardens.Remove(garden); }
 
     /// <summary>
-    /// Returns a list of plants that are prune-able during the given month
-    /// </summary>
-    public List<Plant> GetPrunablePlants(Garden garden, Month month)
-    {
-        List<Plant> prunablePlants = [];
-
-        foreach (Plant p in garden.Plants)
-        {
-            foreach ((Month, Month) period in p.PrunePeriods)
-            {
-                Month start = period.Item1;
-                Month end = period.Item2;
-
-                // Check if passed month is in between any of the prune periods in p
-                if (month >= start && month <= end)
-                    prunablePlants.Add(p);
-            }
-        }
-        return prunablePlants;
-    }
-
-    /// <summary>
-    /// Return the first month in which this garden is in peak blossom.
-    /// </summary>
-    public Month GetPeakBlossom(Garden garden)
-    {
-        int[] monthValues = new int[12];
-
-        // for every plant in the garden
-        foreach (Plant p in garden.Plants)
-        {
-            // for every blossom period for that plant
-            foreach ((Month, Month) period in p.BlossomPeriods)
-            {
-                // get the start and end months
-                Month start = period.Item1;
-                Month end = period.Item2;
-
-                // for every month in the year
-                foreach (Month m in Enum.GetValues(typeof(Month)))
-                {
-                    //check if it falls within the blossom period
-                    if (m >= start && m <= end)
-                        monthValues[(int)m] += 1;
-                }
-            }
-        }
-
-        // get the value of the month with the most blossom
-        int maxMonth = monthValues.Max();
-        // find what month corresponds with that value
-        Month peakMonth = (Month)Array.IndexOf(monthValues, maxMonth);
-        return peakMonth;
-    }
-
-    /// <summary>
     /// Saves all garden data to a json file.
     /// </summary>
     public bool JsonSave()
