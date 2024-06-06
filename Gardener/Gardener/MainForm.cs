@@ -17,6 +17,11 @@ public partial class MainForm : Form
         InitializeComponent();
         RefreshForm();
         RefreshCbxGardenRemove();
+
+        // Populate Month Select combobox
+        cbxSelectMonth.Items.Clear();
+        foreach (Month m in Enum.GetValues(typeof(Month)))
+            cbxSelectMonth.Items.Add(m);
     }
 
     private void btnAdd_Click(object sender, EventArgs e)
@@ -81,6 +86,9 @@ public partial class MainForm : Form
 
         // Clear new plant tb's
         tbPlantName.Text = tbPlantColor.Text = "";
+
+        // Reset selected month
+        cbxSelectMonth.SelectedIndex = -1;
     }
 
     private void RefreshCbxGardenRemove()
