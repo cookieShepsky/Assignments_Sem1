@@ -17,6 +17,7 @@ public partial class MainForm : Form
         InitializeComponent();
         RefreshForm();
         RefreshCbxGardenRemove();
+        RefreshGarden();
 
         // Populate Month Select combobox
         cbxSelectMonth.Items.Clear();
@@ -106,6 +107,10 @@ public partial class MainForm : Form
         if (_selectedGarden != null)
             foreach (Plant p in _selectedGarden.Plants)
                 lbxPlants.Items.Add(p);
+
+        // Show peak bloom period
+        if (_selectedGarden == null || _selectedGarden.Plants.Count == 0) lblPeakBloom.Text = "Peak bloom: n/a";
+        else lblPeakBloom.Text = $"Peak bloom: {_selectedGarden.GetPeakBlossom()}";
     }
 
     private void btnPlantsRemove_Click(object sender, EventArgs e)
@@ -159,13 +164,26 @@ public partial class MainForm : Form
         RefreshGarden();
     }
 
-    private void btnSelectBloom_Click(object sender, EventArgs e)
+    private void btnSelectPrunable_Click(object sender, EventArgs e)
     {
+        if (_selectedGarden == null)
+        {
+            MessageBox.Show("Please select a garden first.");
+            return;
+        }
         if (cbxSelectMonth.SelectedIndex == -1)
         {
             MessageBox.Show("Please select a month first.");
             return;
         }
         lbxPlants.Items.Clear();
+        foreach (Plant p in _selectedGarden.GetPrunablePlants((Month)cbxSelectMonth.SelectedItem!))
+            lbxPlants.Items.Add(p);
+    }
+
+    private void btnShowAll_Click(object sender, EventArgs e)
+    {
+        RefreshGarden();
+        cbxSelectMonth.SelectedIndex = -1;
     }
 }

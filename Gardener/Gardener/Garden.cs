@@ -41,7 +41,7 @@ public class Garden
     public List<Plant> GetPrunablePlants(Month month)
     {
         List<Plant> prunablePlants = [];
-
+        bool spansNewYear = false;
         foreach (Plant p in this.Plants)
         {
             foreach ((Month, Month) period in p.PrunePeriods)
@@ -49,9 +49,26 @@ public class Garden
                 Month start = period.Item1;
                 Month end = period.Item2;
 
+                if (start > end) spansNewYear = true;
+
                 // Check if passed month is in between any of the prune periods in p
-                if (month >= start && month <= end)
-                    prunablePlants.Add(p);
+                // Todo: not adding p if the period spans over newyear's eve (ex December to January)
+                if (!spansNewYear)
+                {
+                    if (month >= start && month <= end)
+                    {
+                        prunablePlants.Add(p);
+                        break;
+                    }
+                }
+                else
+                {
+                    if ((month >= start && month >= end) || (month <= start && month <= end))
+                    {
+                        prunablePlants.Add(p);
+                        break;
+                    }
+                }
             }
         }
         return prunablePlants;
@@ -63,6 +80,7 @@ public class Garden
     public Month GetPeakBlossom()
     {
         int[] monthValues = new int[12];
+        bool spansNewYear = false;
 
         // for every plant in the garden
         foreach (Plant p in this.Plants)
@@ -74,12 +92,22 @@ public class Garden
                 Month start = period.Item1;
                 Month end = period.Item2;
 
+                if (start > end) spansNewYear = true;
+
                 // for every month in the year
                 foreach (Month m in Enum.GetValues(typeof(Month)))
                 {
                     //check if it falls within the blossom period
-                    if (m >= start && m <= end)
-                        monthValues[(int)m] += 1;
+                    if (!spansNewYear)
+                    {
+                        if (m >= start && m <= end)
+                            monthValues[(int)m] += 1;
+                    }
+                    else
+                    {
+                        if ((m >= start && m >= end) || (m <= start && m <= end))
+                            monthValues[(int)m] += 1;
+                    }
                 }
             }
         }
