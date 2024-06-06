@@ -52,7 +52,6 @@ public class Garden
                 if (start > end) spansNewYear = true;
 
                 // Check if passed month is in between any of the prune periods in p
-                // Todo: not adding p if the period spans over newyear's eve (ex December to January)
                 if (!spansNewYear)
                 {
                     if (month >= start && month <= end)
