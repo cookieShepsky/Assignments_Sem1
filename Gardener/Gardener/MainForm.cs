@@ -1,5 +1,4 @@
 using System.ComponentModel;
-using Microsoft.VisualBasic;
 
 namespace Gardener;
 
@@ -197,7 +196,7 @@ public partial class MainForm : Form
     /// <summary>
     /// "Quick" save functionality; If a save file is currently available (achieved through SaveAs, or Load), will save all data to that file.
     /// </summary>
-    private void Save() { if (!_gardener.JsonSave()) MessageBox.Show("Autosave Unavailable. No save file selected."); }
+    private void Save() { if (!_gardener.JsonSave()) MessageBox.Show("Save Unavailable. No save file selected."); }
 
     private void saveAsToolStripMenuItem_Click(object sender, EventArgs e) { MessageBox.Show(_gardener.JsonSaveAs() ? "File successfully saved!" : "No path specified."); }
 

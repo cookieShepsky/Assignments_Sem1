@@ -52,7 +52,6 @@ public class Gardener
         browser.ShowDialog();
 
         _saveFile = browser.FileName;
-        MessageBox.Show(_saveFile);
 
         // If no path was selected
         if (_saveFile == "") return false;
