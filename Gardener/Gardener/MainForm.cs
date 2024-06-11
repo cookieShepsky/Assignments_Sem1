@@ -5,7 +5,6 @@ namespace Gardener;
 
 public partial class MainForm : Form
 {
-    // TODO: Implement save/load
     private Gardener _gardener = new();
     private Garden? _selectedGarden;
 
@@ -16,9 +15,7 @@ public partial class MainForm : Form
         /////////
 
         InitializeComponent();
-        RefreshForm();
-        RefreshCbxGardenRemove();
-        RefreshGarden();
+        RefreshAll();
 
         // Populate Month Select combobox
         cbxSelectMonth.Items.Clear();
@@ -31,7 +28,10 @@ public partial class MainForm : Form
         Garden newGarden = new(tbGardenName.Text);
         List<Garden.Fault> faults = _gardener.AddGarden(newGarden);
         if (faults[0] == Garden.Fault.None)
+        {
             MessageBox.Show($"Successfully added new garden: {newGarden.Name}");
+            Save();
+        }
         else
         {
             string msg = $"Error(s) while creating new garden:\n";
@@ -54,9 +54,7 @@ public partial class MainForm : Form
                 _gardener.RemoveGarden(g);
                 MessageBox.Show($"Successfully removed {g.Name}");
                 _selectedGarden = null;
-                RefreshForm();
-                RefreshCbxGardenRemove();
-                RefreshGarden();
+                RefreshAll();
                 return;
             }
         MessageBox.Show($"Error, could not find a garden named {toRemove.Name}");
@@ -125,9 +123,9 @@ public partial class MainForm : Form
     {
         // remove the selected plant from the garden.
         if (lbxPlants.SelectedIndex == -1) return;
-        if (!_selectedGarden.RemovePlant((Plant)lbxPlants.SelectedItem!))
-            MessageBox.Show("Something went wrong while removing this plant...");
-        else MessageBox.Show($"{lbxPlants.SelectedItem} successfully removed!");
+        MessageBox.Show(!_selectedGarden!.RemovePlant((Plant)lbxPlants.SelectedItem!)
+            ? "Something went wrong while removing this plant..."
+            : $"{lbxPlants.SelectedItem} successfully removed!");
         RefreshGarden();
     }
 
@@ -170,6 +168,7 @@ public partial class MainForm : Form
     private void AddFormClosing(object? sender, CancelEventArgs e)
     {
         RefreshGarden();
+        Save();
     }
 
     private void btnSelectPrunable_Click(object sender, EventArgs e)
@@ -195,24 +194,19 @@ public partial class MainForm : Form
         cbxSelectMonth.SelectedIndex = -1;
     }
 
-    private void saveToolStripMenuItem_Click(object sender, EventArgs e)
-    {
-        MessageBox.Show(_gardener.JsonSave()? "File successfully saved!" : "No existing save file.");
-    }
+    private void Save() { if (!_gardener.JsonSave()) MessageBox.Show("Autosave Unavailable. No save file selected."); }
 
-    private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
-    {
-        MessageBox.Show(_gardener.JsonSaveAs() ? "File successfully saved!" : "No path specified.");
-    }
+    private void saveAsToolStripMenuItem_Click(object sender, EventArgs e) { MessageBox.Show(_gardener.JsonSaveAs() ? "File successfully saved!" : "No path specified."); }
 
     private void loadToolStripMenuItem_Click(object sender, EventArgs e)
     {
-        // TODO: Load file from location
         Gardener? loadData = _gardener.JsonLoad();
         if (loadData != null)
         {
-             _gardener = loadData;
+            _gardener = loadData;
             RefreshAll();
         }
     }
+
+    private void saveToolStripMenuItem_Click(object sender, EventArgs e) { Save(); }
 }
