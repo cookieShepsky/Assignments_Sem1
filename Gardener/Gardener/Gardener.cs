@@ -6,6 +6,7 @@ namespace Gardener;
 public class Gardener
 {
     private string _saveFile = "";
+    private static JsonSerializerOptions _serializerOptions = new() { IncludeFields = true };   // I don't fully understand why this is required on (de)serialization.
     public List<Garden> Gardens { get; set; } = [];
 
     public Gardener() {}    // need an empty constructor so we can create the object without passing a list (like the json would need to do)
@@ -42,27 +43,35 @@ public class Gardener
     public bool RemoveGarden(Garden garden) { return Gardens.Remove(garden); }
 
     /// <summary>
-    /// Saves all garden data to a json file.
+    /// Saves all garden data to a (new) user defined json file.
     /// </summary>
-    public bool JsonSave()
+    public bool JsonSaveAs()
     {
-        FolderBrowserDialog browser = new();
-        string saveName = @"GardenData.json";
+        SaveFileDialog browser = new();
+        browser.DefaultExt = "json";
 
-        // If a file has been previously saved, use previously used _saveFile as default dir
-        if (_saveFile != "")
-            browser.InitialDirectory = _saveFile;
-        
         browser.ShowDialog();
 
-        _saveFile = browser.SelectedPath;
+        _saveFile = browser.FileName;
+        MessageBox.Show(_saveFile);
 
         // If no path was selected
         if (_saveFile == "") return false;
-        _saveFile += saveName;
 
-        string json = JsonSerializer.Serialize(this);
+        string json = JsonSerializer.Serialize(this, _serializerOptions);
         File.WriteAllText(_saveFile,json);
+        return true;
+    }
+
+    /// <summary>
+    /// Saves all garden data to an existing, previously defined json file.
+    /// </summary>
+    public bool JsonSave()
+    {
+        if(!File.Exists(_saveFile)) return false;
+
+        string json = JsonSerializer.Serialize(this, _serializerOptions);
+        File.WriteAllText(_saveFile, json);
         return true;
     }
 
@@ -85,7 +94,7 @@ public class Gardener
         _saveFile = browser.FileName;
 
         string json = File.ReadAllText(_saveFile);
-        Gardener data = JsonSerializer.Deserialize<Gardener>(json)!;
+        Gardener data = JsonSerializer.Deserialize<Gardener>(json, _serializerOptions)!;
         return data;
     }
 

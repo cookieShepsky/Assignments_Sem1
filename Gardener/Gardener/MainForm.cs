@@ -6,7 +6,7 @@ namespace Gardener;
 public partial class MainForm : Form
 {
     // TODO: Implement save/load
-    private readonly Gardener _gardener = new();
+    private Gardener _gardener = new();
     private Garden? _selectedGarden;
 
     public MainForm()
@@ -69,6 +69,13 @@ public partial class MainForm : Form
         _selectedGarden = (Garden)cbxGardenRemove.SelectedItem!;
         RefreshForm();
         RefreshGarden();
+    }
+
+    private void RefreshAll()
+    {
+        RefreshGarden();
+        RefreshCbxGardenRemove();
+        RefreshForm();
     }
 
     private void RefreshForm()
@@ -186,5 +193,26 @@ public partial class MainForm : Form
     {
         RefreshGarden();
         cbxSelectMonth.SelectedIndex = -1;
+    }
+
+    private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(_gardener.JsonSave()? "File successfully saved!" : "No existing save file.");
+    }
+
+    private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+        MessageBox.Show(_gardener.JsonSaveAs() ? "File successfully saved!" : "No path specified.");
+    }
+
+    private void loadToolStripMenuItem_Click(object sender, EventArgs e)
+    {
+        // TODO: Load file from location
+        Gardener? loadData = _gardener.JsonLoad();
+        if (loadData != null)
+        {
+             _gardener = loadData;
+            RefreshAll();
+        }
     }
 }

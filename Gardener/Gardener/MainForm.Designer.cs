@@ -49,8 +49,14 @@
             btnPlantsRemove = new Button();
             lbxPlants = new ListBox();
             lblSelectedGarden = new Label();
+            menuStrip1 = new MenuStrip();
+            fileToolStripMenuItem = new ToolStripMenuItem();
+            saveToolStripMenuItem = new ToolStripMenuItem();
+            saveAsToolStripMenuItem = new ToolStripMenuItem();
+            loadToolStripMenuItem = new ToolStripMenuItem();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox1
@@ -59,7 +65,7 @@
             groupBox1.Controls.Add(btnRemove);
             groupBox1.Controls.Add(btnAdd);
             groupBox1.Controls.Add(tbGardenName);
-            groupBox1.Location = new Point(12, 12);
+            groupBox1.Location = new Point(11, 37);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(262, 118);
             groupBox1.TabIndex = 0;
@@ -121,7 +127,7 @@
             groupBox2.Controls.Add(btnPlantsRemove);
             groupBox2.Controls.Add(lbxPlants);
             groupBox2.Controls.Add(lblSelectedGarden);
-            groupBox2.Location = new Point(12, 136);
+            groupBox2.Location = new Point(11, 161);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(262, 505);
             groupBox2.TabIndex = 1;
@@ -269,21 +275,63 @@
             lblSelectedGarden.Text = "lblSelectedGarden";
             lblSelectedGarden.TextAlign = ContentAlignment.TopCenter;
             // 
+            // menuStrip1
+            // 
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(285, 24);
+            menuStrip1.TabIndex = 2;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { saveToolStripMenuItem, saveAsToolStripMenuItem, loadToolStripMenuItem });
+            fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            fileToolStripMenuItem.Size = new Size(37, 20);
+            fileToolStripMenuItem.Text = "File";
+            // 
+            // saveToolStripMenuItem
+            // 
+            saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            saveToolStripMenuItem.Size = new Size(180, 22);
+            saveToolStripMenuItem.Text = "Save";
+            saveToolStripMenuItem.Click += saveToolStripMenuItem_Click;
+            // 
+            // saveAsToolStripMenuItem
+            // 
+            saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
+            saveAsToolStripMenuItem.Size = new Size(180, 22);
+            saveAsToolStripMenuItem.Text = "Save As";
+            saveAsToolStripMenuItem.Click += saveAsToolStripMenuItem_Click;
+            // 
+            // loadToolStripMenuItem
+            // 
+            loadToolStripMenuItem.Name = "loadToolStripMenuItem";
+            loadToolStripMenuItem.Size = new Size(180, 22);
+            loadToolStripMenuItem.Text = "Load";
+            loadToolStripMenuItem.Click += loadToolStripMenuItem_Click;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(285, 649);
+            ClientSize = new Size(285, 671);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            Controls.Add(menuStrip1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            MainMenuStrip = menuStrip1;
             Name = "MainForm";
             Text = "Gardens";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -309,5 +357,10 @@
         private ComboBox cbxSelectMonth;
         private Button btnShowAll;
         private Label lblPeakBloom;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem fileToolStripMenuItem;
+        private ToolStripMenuItem saveToolStripMenuItem;
+        private ToolStripMenuItem saveAsToolStripMenuItem;
+        private ToolStripMenuItem loadToolStripMenuItem;
     }
 }
