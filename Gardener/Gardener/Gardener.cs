@@ -20,6 +20,8 @@ public class Gardener
     /// <returns> List of faults, will contain Garden.Fault.None if valid. </returns>
     public List<Garden.Fault> AddGarden(Garden garden)
     {
+        // TODO: Autosave; If any edits are made anywhere, and there is a saveFile already made, save automatically.
+        // TODO: Save As...
         if (garden.Validate()[0] == Garden.Fault.None)
             foreach (Garden g in this.Gardens)
             {
