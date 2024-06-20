@@ -114,7 +114,7 @@ public class Garden
         // get the value of the month with the most blossom
         int maxMonth = monthValues.Max();
         // find what month corresponds with that value
-        Month peakMonth = (Month)Array.IndexOf(monthValues, maxMonth);
+        Month peakMonth = (Month)Array.IndexOf(monthValues, maxMonth)+1;
         return peakMonth;
     }
 
