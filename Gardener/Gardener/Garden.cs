@@ -105,7 +105,7 @@ public class Garden
                     else
                     {
                         if ((m >= start && m >= end) || (m <= start && m <= end))
-                            monthValues[(int)m] += 1;
+                            monthValues[(int)m-1] += 1;     // -1 because first enum value = 1, and first index in monthValues = 0
                     }
                 }
             }
