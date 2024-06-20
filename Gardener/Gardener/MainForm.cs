@@ -196,13 +196,13 @@ public partial class MainForm : Form
     /// <summary>
     /// "Quick" save functionality; If a save file is currently available (achieved through SaveAs, or Load), will save all data to that file.
     /// </summary>
-    private void Save() { if (!_gardener.JsonSave()) MessageBox.Show("Save Unavailable. No save file selected."); }
+    private void Save() { if (!FileHelper.JsonSave(_gardener)) MessageBox.Show("Save Unavailable. No save file selected."); }
 
-    private void saveAsToolStripMenuItem_Click(object sender, EventArgs e) { MessageBox.Show(_gardener.JsonSaveAs() ? "File successfully saved!" : "No path specified."); }
+    private void saveAsToolStripMenuItem_Click(object sender, EventArgs e) { MessageBox.Show(FileHelper.JsonSaveAs(_gardener) ? "File successfully saved!" : "No path specified."); }
 
     private void loadToolStripMenuItem_Click(object sender, EventArgs e)
     {
-        Gardener? loadData = _gardener.JsonLoad();
+        Gardener? loadData = FileHelper.JsonLoad();
         if (loadData != null)
         {
             _gardener = loadData;

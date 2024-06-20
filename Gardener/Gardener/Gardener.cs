@@ -6,11 +6,9 @@ namespace Gardener;
 
 public class Gardener
 {
-    private static string _saveFile;
-    private static JsonSerializerOptions _serializerOptions = new() { IncludeFields = true };   // NOTE: I don't fully understand why this is required on (de)serialization.
     public List<Garden> Gardens { get; set; } = [];
 
-    public Gardener() { _saveFile = ""; }    // need an empty constructor so we can create the object without passing a list (like the json would need to do)
+    public Gardener() {}    // need an empty constructor so we can create the object without passing a list (like the json would need to do)
 
     [JsonConstructor]
     public Gardener(List<Garden> gardens) { this.Gardens = gardens; }
@@ -40,62 +38,6 @@ public class Gardener
     /// <returns>True if successful;<br/>
     /// Otherwise false.</returns>
     public bool RemoveGarden(Garden garden) { return Gardens.Remove(garden); }
-
-    /// <summary>
-    /// Saves all garden data to a (new) user defined json file.
-    /// </summary>
-    public bool JsonSaveAs()
-    {
-        SaveFileDialog browser = new();
-        browser.DefaultExt = "json";
-
-        browser.ShowDialog();
-
-        _saveFile = browser.FileName;
-
-        // If no path was selected
-        if (_saveFile == "") return false;
-
-        string json = JsonSerializer.Serialize(this, _serializerOptions);
-        File.WriteAllText(_saveFile,json);
-        return true;
-    }
-
-    /// <summary>
-    /// Saves all garden data to an existing, previously defined json file.
-    /// </summary>
-    public bool JsonSave()
-    {
-        if(!File.Exists(_saveFile)) return false;
-
-        string json = JsonSerializer.Serialize(this, _serializerOptions);
-        File.WriteAllText(_saveFile, json);
-        return true;
-    }
-
-    /// <summary>
-    /// Loads data from a json file
-    /// </summary>
-    /// <returns> Gardener object;<br/>
-    /// Null if file not found.</returns>
-    public Gardener? JsonLoad()
-    {
-        OpenFileDialog browser = new();
-
-        // If a file has been previously saved, use previously used _saveFile as default dir
-        if (File.Exists(_saveFile))
-            browser.InitialDirectory = _saveFile;
-
-        browser.ShowDialog();
-
-        if (browser.FileName == "") return null;
-        _saveFile = browser.FileName;
-        Debug.WriteLine($"[GARDENER] File Loaded: {_saveFile}");
-
-        string json = File.ReadAllText(_saveFile);
-        Gardener data = JsonSerializer.Deserialize<Gardener>(json, _serializerOptions)!;
-        return data;
-    }
 
     /// <summary>
     /// Add 3 generic gardens with one unique plant each to this Gardener for debugging
