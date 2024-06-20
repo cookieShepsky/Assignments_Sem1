@@ -98,7 +98,7 @@ public class Gardener
     }
 
     /// <summary>
-    /// Add 3 generic gardens with one unique plant each to this Gardener
+    /// Add 3 generic gardens with one unique plant each to this Gardener for debugging
     /// </summary>
     public void AddDebugGardens()
     {
