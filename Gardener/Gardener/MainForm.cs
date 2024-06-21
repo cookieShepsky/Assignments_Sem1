@@ -9,10 +9,6 @@ public partial class MainForm : Form
 
     public MainForm()
     {
-        //DEBUG//
-        _gardener.AddDebugGardens();
-        /////////
-
         InitializeComponent();
         RefreshAll();
     }
