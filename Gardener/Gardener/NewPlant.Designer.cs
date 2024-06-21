@@ -144,6 +144,7 @@
             // 
             cbxBloomEnd.DropDownStyle = ComboBoxStyle.DropDownList;
             cbxBloomEnd.FormattingEnabled = true;
+            cbxBloomEnd.Items.AddRange(new object[] { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" });
             cbxBloomEnd.Location = new Point(139, 43);
             cbxBloomEnd.Name = "cbxBloomEnd";
             cbxBloomEnd.Size = new Size(121, 23);
@@ -153,6 +154,7 @@
             // 
             cbxBloomStart.DropDownStyle = ComboBoxStyle.DropDownList;
             cbxBloomStart.FormattingEnabled = true;
+            cbxBloomStart.Items.AddRange(new object[] { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" });
             cbxBloomStart.Location = new Point(12, 43);
             cbxBloomStart.Name = "cbxBloomStart";
             cbxBloomStart.Size = new Size(121, 23);
@@ -214,6 +216,7 @@
             // 
             cbxPruneEnd.DropDownStyle = ComboBoxStyle.DropDownList;
             cbxPruneEnd.FormattingEnabled = true;
+            cbxPruneEnd.Items.AddRange(new object[] { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" });
             cbxPruneEnd.Location = new Point(139, 43);
             cbxPruneEnd.Name = "cbxPruneEnd";
             cbxPruneEnd.Size = new Size(121, 23);
@@ -223,6 +226,7 @@
             // 
             cbxPruneStart.DropDownStyle = ComboBoxStyle.DropDownList;
             cbxPruneStart.FormattingEnabled = true;
+            cbxPruneStart.Items.AddRange(new object[] { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" });
             cbxPruneStart.Location = new Point(12, 43);
             cbxPruneStart.Name = "cbxPruneStart";
             cbxPruneStart.Size = new Size(121, 23);

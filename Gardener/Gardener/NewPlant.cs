@@ -15,15 +15,6 @@ public partial class NewPlant : Form
         lblType.Text = $"Type: {incompletePlant.Type}";
         lblEvergreen.Text = $"Evergreen: {incompletePlant.Evergreen}";
 
-        // Populate Comboboxes
-        foreach (Month m in Enum.GetValues(typeof(Month)))
-        {
-            cbxBloomStart.Items.Add(m);
-            cbxBloomEnd.Items.Add(m);
-            cbxPruneStart.Items.Add(m);
-            cbxPruneEnd.Items.Add(m);
-        }
-
         RefreshListBoxes();
     }
 
@@ -36,7 +27,7 @@ public partial class NewPlant : Form
             return;
         }
 
-        (Month, Month) newPeriod = ((Month)cbxBloomStart.SelectedItem!, (Month)cbxBloomEnd.SelectedItem!);
+        (Month, Month) newPeriod = ((Month)cbxBloomStart.SelectedIndex+1!, (Month)cbxBloomEnd.SelectedIndex+1!);
 
         if (!_plant.AddBlossomPeriod(newPeriod))
             MessageBox.Show("That period has already been added!");
@@ -52,7 +43,7 @@ public partial class NewPlant : Form
             return;
         }
 
-        (Month, Month) newPeriod = ((Month)cbxPruneStart.SelectedItem!, (Month)cbxPruneEnd.SelectedItem!);
+        (Month, Month) newPeriod = ((Month)cbxPruneStart.SelectedIndex+1!, (Month)cbxPruneEnd.SelectedIndex+1!);
 
         if (!_plant.AddPrunePeriod(newPeriod))
             MessageBox.Show("That period has already been added!");

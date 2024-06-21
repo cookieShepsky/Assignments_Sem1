@@ -15,11 +15,6 @@ public partial class MainForm : Form
 
         InitializeComponent();
         RefreshAll();
-
-        // Populate Month Select combobox
-        cbxSelectMonth.Items.Clear();
-        foreach (Month m in Enum.GetValues(typeof(Month)))
-            cbxSelectMonth.Items.Add(m);
     }
 
     private void btnAdd_Click(object sender, EventArgs e)
@@ -183,7 +178,7 @@ public partial class MainForm : Form
             return;
         }
         lbxPlants.Items.Clear();
-        foreach (Plant p in _selectedGarden.GetPrunablePlants((Month)cbxSelectMonth.SelectedItem!))
+        foreach (Plant p in _selectedGarden.GetPrunablePlants((Month)cbxSelectMonth.SelectedIndex+1!))
             lbxPlants.Items.Add(p);
     }
 
