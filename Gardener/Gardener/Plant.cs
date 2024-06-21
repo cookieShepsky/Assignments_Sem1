@@ -65,6 +65,7 @@ public class Plant
     public string ShowInfo()
     {
         // todo: Should be a localizable string, generated on frontend. Only pass properties to display.
+        // I am a little puzzled on how to achieve this in a clean way...
         string msg = $"Plant name: {this.Name}\n" +
                      $"Plant color: {this.Color}\n" +
                      $"Evergreen: {this.Evergreen}\n" +
